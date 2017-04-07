@@ -2,70 +2,70 @@
    "ai": {
       "actions": {
          "status_text": {
-            "chase_entity": "[name(data.target)]을(를) 추적하는 중",
-            "eat_item": "[name(data.target)]을(를) 먹는 중",
-            "fill_storage": "[name(data.target)]을(를) 채우는 중",
-            "harvest_crop": "[name(data.target)]을(를) 수확 중",
-            "harvest_resource": "[name(data.target)]을(를) 채집 중",
-            "harvest_resource_node": "[name(data.target)]을(를) 채집 중",
-            "light_firepit": "[name(data.target)]에 불 붙이는 중",
-            "place_item_on_structure": "[name(data.target)]을(를) 설치 중",
-            "work_at_workshop": "[str(data.craftable_name)]을(를) 제작 중",
-            "attack_melee_adjacent": "[name(data.target)]을(를) 공격 중",
-            "wait_at_safety_point": "안전 배너를 기다리는 중",
-            "weaponize": "조난자를 기다리는 중",
-            "resting_by_fire": "불을 쬐며 쉬는 중",
-            "claiming_animal": "탑승 중",
-            "looking_for_animals": "동물 찾는 중",
-            "collect_ingredient": "자원 수집 중",
-            "build_workshop": "작업대 설치 중",
-            "death": "사망 직전",
-            "eat": "식사 중",
-            "find_stray_animal": "도둑을 찾는 중",
-            "harvest_field": "작물 수확 중",
-            "idle": "대기",
-            "patrol": "정찰 중",
-            "plant_crop": "작물 심는 중",
-            "return_animals": "방목지로 돌아가는 중",
-            "combat": "전투 중",
-            "cower": "웅크리는 중",
-            "flee": "도망치는 중",
-            "panic": "공황 상태",
-            "mine": "채광 중",
-            "sleep_in_bed": "수면 중",
-            "sleep_on_ground": "바닥에서 자는 중",
-            "check_bait_trap": "덫 점검 중",
-            "set_bait_trap": "덫 설치 중",
-            "survey_trapping_grounds": "덫 설치 장소 물색 중",
-            "steal_bait": "미끼를 훔치는 중",
-            "build_ladder": "사다리 건설 중",
-            "promote": "전직 중",
-            "move_item_to_storage": "아이템 보관 중",
-            "teardown_ladder": "사다리 철거 중",
-            "drop_item_near_workshop": "작업대 철거 중",
-            "fabricate_structure": "건설 중",
-            "teardown_structure": "시설물 철거 중",
-            "feed_pasture_animals": "먹이 주는 중",
-            "restock": "아이템 저장 중",
-            "resting_from_injuries": "치료를 요구하는 중",
-            "healing": "부상 치료 중",
-            "healing_target": "[name(data.target)]을 치료하는 중",
-            "dig_foundation": "부지 공사 중"
+            "chase_entity": "chasing [name(data.target)]",
+            "eat_item": "eating [name(data.target)]",
+            "fill_storage": "filling [name(data.target)]",
+            "harvest_crop": "harvesting [name(data.target)]",
+            "harvest_resource": "harvesting [name(data.target)]",
+            "harvest_resource_node": "harvesting [name(data.target)]",
+            "light_firepit": "lighting [name(data.target)]",
+            "place_item_on_structure": "placing [name(data.target)]",
+            "work_at_workshop": "crafting [str(data.craftable_name)]",
+            "attack_melee_adjacent": "attacking [name(data.target)]",
+            "wait_at_safety_point": "waiting at safety banner",
+            "weaponize": "watching for intruders",
+            "resting_by_fire": "resting by the fire",
+            "claiming_animal": "claiming animal",
+            "looking_for_animals": "looking for animals",
+            "collect_ingredient": "collecting ingredients",
+            "build_workshop": "building workshop",
+            "death": "dying",
+            "eat": "getting food",
+            "find_stray_animal": "finding strays",
+            "harvest_field": "harvesting field",
+            "idle": "idle",
+            "patrol": "patrolling",
+            "plant_crop": "planting crop",
+            "return_animals": "returning to pasture",
+            "combat": "engaged in combat",
+            "cower": "cowering",
+            "flee": "fleeing",
+            "panic": "panicking",
+            "mine": "mining",
+            "sleep_in_bed": "sleeping",
+            "sleep_on_ground": "sleeping on the ground",
+            "check_bait_trap": "checking traps",
+            "set_bait_trap": "setting traps",
+            "survey_trapping_grounds": "survey trapping grounds",
+            "steal_bait": "stealing bait",
+            "build_ladder": "building ladder",
+            "promote": "promoting",
+            "move_item_to_storage": "moving item to storage",
+            "teardown_ladder": "removing ladder",
+            "drop_item_near_workshop": "clearing workshop",
+            "fabricate_structure": "building",
+            "teardown_structure": "tearing down structures",
+            "feed_pasture_animals": "feeding animals",
+            "restock": "restocking items",
+            "resting_from_injuries": "requiring medical attention",
+            "healing": "treating wounds",
+            "healing_target": "healing [name(data.target)]",
+            "dig_foundation": "digging foundation"
          }
       }
    },
    "ui": {
       "game": {
          "game_speed": {
-            "pause_title": "일시정지",
-            "pause_description": "게임의 시간이 흐르지 않습니다.",
-            "play_title": "보통",
-            "play_description": "보통속도로 시간이 흐릅니다.",
-            "ff_title": "빠르게",
-            "ff_description": "2배 빠른 속도로 시간이 흐릅니다.",
-            "speedThree_title": "엄청 빠르게",
-            "speedThree_description": "엄청나게 빠른 속도로 시간이 흐릅니다.",
-            "pause_overlay": "일시정지"
+            "pause_title": "Pause",
+            "pause_description": "Pause the game",
+            "play_title": "Play",
+            "play_description": "Run the game at normal speed",
+            "ff_title": "Fast Forward",
+            "ff_description": "Run the game at 2x speed",
+            "speedThree_title": "Super Speed",
+            "speedThree_description": "Run the game at high speed",
+            "pause_overlay": "Paused"
          },
          "visions": {
             "building_vision": "Building vision",
@@ -80,60 +80,60 @@
             "terrain_xray_vision_full": "full"
          },
          "promotion_tree": {
-            "title": "직업 선택",
-            "promotion_title": "사령장",
-            "text_1": "귀하는 평소 맡은 일에 충실하고 타인의 모범이 되어 마을 발전에 많은 기여를 하였으므로 [str(date)]부터 [str(job_name)]으로 인사 발령합니다.",
+            "title": "Choose a Job",
+            "promotion_title": "Promotion to [str(job_name)]",
+            "text_1": "In honor of steadfast efforts and resilience, we hereby advance",
             "choose": "choose a hearthling...",
-            "text_2": "[str(date)]",
-            "approve": "결제",
-            "approved": "승인됨!",
-            "denied": "조건이 충족되지 않았습니다!",
-            "stamper_top_text": "도장",
-            "stamper_bottom_text": "결제",
-            "requires": "필요 조건"
+            "text_2": "this day of, [str(date)]",
+            "approve": "APPROVE",
+            "approved": "APPROVED",
+            "denied": "DENIED! Requirements not met",
+            "stamper_top_text": "CLICK TO",
+            "stamper_bottom_text": "APPROVE",
+            "requires": "Requires"
          },
          "build_workshop": {
             "title": "Build Workshop",
-            "requirements": "필요 조건",
+            "requirements": "Requirements",
             "create_stockpile": "Crafter's Stockpile",
             "create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>You probably want to place it near the workbench, but hey, it's your decision.",
-            "page1_subtitle2": "땅 위를 클릭해서 설치할 수 있습니다.",
-            "page2_subtitle2": "땅 위를 드래그 해서 설치할 수 있습니다."
+            "page1_subtitle2": "Click on the ground to place the workshop",
+            "page2_subtitle2": "Click and drag on the ground to place the stockpile"
          },
          "citizen_character_sheet": {
-            "title": "캐릭터 정보",
-            "health": "체력",
-            "morale": "의욕",
-            "experience": "경험치",
-            "max_level": "최고 레벨!!!",
-            "level_text": "레벨 ",
-            "level_abbreviation": "레벨",
-            "locked_status": " (잠김)",
-            "apprentice": "견습생",
-            "journal": "일기",
-            "attributes": "특성",
-            "equipment": "장비",
-            "abilities": "직무능력",
-            "morale_title": "만족도",
-            "overall_morale": "종합 만족도",
-            "morale_food": "음식",
-            "morale_shelter": "주거지",
-            "morale_safety": "신변보호",
-            "attack_abbreviation": "공격력",
-            "defense_abbreviation": "방어력",
-            "backpack_tab_name": "가방",
-            "journal_no_entries": "존재하지 않음",
-            "retired": "퇴직:"
+            "title": "Character Info",
+            "health": "health",
+            "morale": "morale",
+            "experience": "experience",
+            "max_level": "Max Level!!!",
+            "level_text": "Level ",
+            "level_abbreviation": "Lvl",
+            "locked_status": " (Locked)",
+            "apprentice": "Apprentice",
+            "journal": "Journal",
+            "attributes": "Attributes",
+            "equipment": "Equipment",
+            "abilities": "Job Abilities",
+            "morale_title": "Morale",
+            "overall_morale": "Overall Morale",
+            "morale_food": "Food",
+            "morale_shelter": "Shelter",
+            "morale_safety": "Safety",
+            "attack_abbreviation": "Atk",
+            "defense_abbreviation": "Def",
+            "backpack_tab_name": "Backpack",
+            "journal_no_entries": "no entries",
+            "retired": "Retired at:"
          },
          "pet_character_sheet": {
-            "title": "애완동물 정보",
+            "title": "Pet Info",
             "release_pet_confirm_dialog": {
-               "title": "애완동물 방생하기",
-               "message": "정말로 애완동물을 야생으로 방생하길 원하십니까? 한번 방생하면 다시 얻을 수 없습니다.",
-               "accept": "이런 펫은 필요없어!",
-               "cancel": "잠시만.."
+               "title": "Release Pet",
+               "message": "Are you sure you want to release this pet back into the wild? You won't be able to get it back.",
+               "accept": "I don't want this pet.",
+               "cancel": "Wait!"
             },
-            "befriended_pet_description": "[name(self.stonehearth:pet.owner)]의 친구"
+            "befriended_pet_description": "Befriended by [name(self.stonehearth:pet.owner)]"
          },
          "tutorials": {
             "camera": {
@@ -150,494 +150,494 @@
             }
          },
          "save_view": {
-            "title": "게임 저장하기",
-            "confim_delete_title": "삭제 확인",
-            "confirm_delete_message": "정말 이 게임 세이브를 삭제하겠습니까?",
-            "confim_overwrite_title": "덮어쓰기 확인",
-            "confirm_overwrite_message": "정말 이 게임 세이브를 덮어 씌우겠습니까?",
-            "save_autosave": "자동저장 활성화",
-            "auto_save_prefix": "자동저장: ",
-            "save_in_progress": "저장 중...",
-            "opt_title": "우리가 더 나은 스톤하스를 만들기 위해 도와주세요.",
-            "opt_text": "게임 개발에 도움이 되기 위해 익명으로 당신의 컴퓨터 사양과 게임 플레이 데이터를 수집하고 싶습니다.",
-            "opt_in_button": "네, 그렇게 하세요!",
-            "opt_out_button": "하지마세요.",
-            "opt_thanks": "고마워요!",
-            "save_delete": "지우기",
-            "save_overwrite": "덮어쓰기",
-            "save_new": "새로 저장",
-            "load_game": "게임 불러오기",
-            "game_different_version": "호환되지 않는 버전",
-            "delete_incompatible_saves": "호환되지 않는 버전 지우기",
-            "save_time": "[str(save_time)] 저장하기",
-            "save_tooltip_description": "폴더 이름: [str(folder_name)]"
+            "title": "Saved Games",
+            "confim_delete_title": "Confirm Delete",
+            "confirm_delete_message": "Do you really want to delete this save game?",
+            "confim_overwrite_title": "Confirm Save Overwrite",
+            "confirm_overwrite_message": "Do you really want to completely, unrevokably overwrite this save game?",
+            "save_autosave": "Automatically save periodically",
+            "auto_save_prefix": "Auto save: ",
+            "save_in_progress": "Saving...",
+            "opt_title": "Help us make Stonehearth better!",
+            "opt_text": "Will you allow us to collect anonymous performance and gameplay data to help us tune future versions of the game?",
+            "opt_in_button": "Yes, I'll help",
+            "opt_out_button": "Nah",
+            "opt_thanks": "Thanks!",
+            "save_delete": "Delete",
+            "save_overwrite": "Overwrite",
+            "save_new": "New Save",
+            "load_game": "Load Game",
+            "game_different_version": "incompatible save version",
+            "delete_incompatible_saves": "Delete Incompatible Saves",
+            "save_time": "Saved [str(save_time)]",
+            "save_tooltip_description": "Folder Name: [str(folder_name)]"
          },
          "common": {
-            "ok": "확인",
-            "cancel": "취소",
-            "yes": "네",
-            "no": "아니요",
-            "accept": "승낙",
-            "decline": "거절",
-            "next": "다음",
-            "hotkey": "키: ",
-            "remove": "삭제",
-            "input_text_tooltip": "클릭해서 편집"
+            "ok": "OK",
+            "cancel": "Cancel",
+            "yes": "Yes",
+            "no": "No",
+            "accept": "Accept",
+            "decline": "Decline",
+            "next": "Next",
+            "hotkey": "key: ",
+            "remove": "Remove",
+            "input_text_tooltip": "Click to edit"
          },
          "party": {
-            "title": "파티",
-            "create_party": "파티 생성",
-            "edit_party": "편집",
-            "add_party_member": "파티원 추가",
-            "remove_members": "모든 멤버 제거",
-            "add_party_member_title": "명단 관리",
-            "done_adding_members": "완료",
-            "add_party_member_button": "추가",
-            "remove_party_member_button": "삭제",
-            "not_in_party": "파티에 소속되어 있지 않습니다",
+            "title": "Parties",
+            "create_party": "Create Party",
+            "edit_party": "Edit",
+            "add_party_member": "Add Member",
+            "remove_members": "Remove All Members",
+            "add_party_member_title": "Manage Roster",
+            "done_adding_members": "Done",
+            "add_party_member_button": "Add",
+            "remove_party_member_button": "Remove",
+            "not_in_party": "Not in a party",
             "party_help": "Party members will travel together and can be directed on the battlefield.",
             "party_editor_help": "Use this screen to add and remove hearthlings to the party.",
             "attack_banner_button": "Attack Order",
             "attack_banner_button_help": "Tell the party to assault a location",
             "defend_banner_button": "Rally & Defend Order",
             "defend_banner_button_help": "Tell the party to rally to a location when Town Defense Mode is activated",
-            "default_name": "[str(party.ord)]번째 파티"
+            "default_name": "Party No.[str(party.ord)]"
          },
          "unit_frame": {
             "show_character_sheet": "Show character sheet",
             "focus_camera": "Focus camera on this unit",
             "attack_target": {
-               "display_name": "공격할 대상",
+               "display_name": "Attack Target",
                "description": "Attack a specific enemy at the exclusion of all others, or attack anything near a location, and everything in between."
             },
             "defend_location": {
-               "display_name": "지역방어",
-               "description": "Attack a specific enemy at the exclusion of all others, or attack anything near a location, and everything in between."
+               "display_name": "Defend Location",
+               "description": "Run towards, then stay at this location, attacking anything in the path."
             },
             "move_unit": {
-               "display_name": "해당 지역으로 이동",
+               "display_name": "Move to Location",
                "description": "Move to a location, ignoring all intervening threats."
             },
             "manage_party": {
-               "display_name": "파티 관리",
+               "display_name": "Manage Party",
                "description": "Add and remove combat units from the party."
             },
             "cancel_order": {
-               "display_name": "전투 명령 취소",
+               "display_name": "Cancel Combat Order",
                "description": "Cancels active combat orders."
             }
          },
          "citizens": {
-            "title": "시민",
-            "work_orders_title": "시민",
-            "worker_details": "정보",
+            "title": "Citizens",
+            "work_orders_title": "Citizens",
+            "worker_details": "Details",
             "workers_list_headers": {
-               "name": "이름",
-               "haul": "줍기",
-               "build": "건설",
-               "mine": "채광",
-               "job": "직무",
-               "current_activity": "현재 작업",
-               "militia": "민병대",
-               "status": "등급"
+               "name": "Name",
+               "haul": "Haul",
+               "build": "Build",
+               "mine": "Mine",
+               "job": "Job",
+               "current_activity": "Current Activity...",
+               "militia": "Militia",
+               "status": "Status"
             },
-            "show_character_sheet": "자세한 정보",
-            "button_suspend": "유예",
-            "button_resume": "복귀",
+            "show_character_sheet": "More Info",
+            "button_suspend": "suspend",
+            "button_resume": "resume",
             "tab": {
-               "tasks": "일",
-               "groups": "그룹"
+               "tasks": "Tasks",
+               "groups": "Groups"
             },
             "enrollment": {
-               "enrolled": "등록",
-               "not_enrolled": "미등록",
-               "cannot_enroll": "등록 불가"
+               "enrolled": "Enrolled",
+               "not_enrolled": "Not enrolled",
+               "cannot_enroll": "Cannot enroll"
             }
          },
          "create_camp": {
-            "new_game_place_banner": "이것을 클릭하세요",
-            "click_banner_tip": "정착을 원하는 장소에 당신의 마을을 건설하기 위해 배너를 클릭하세요",
-            "select_camp_tip": "이제 정착을 원하는 장소를 클릭해서 마을을 건설해 보세요.",
-            "name_camp_title": "당신의 정착지 이름",
-            "name_camp_prompt": "당신의 정착지 이름을 적어주세요!"
+            "new_game_place_banner": "Click me to place your town banner",
+            "click_banner_tip": "Click the banner to choose your settlement's location",
+            "select_camp_tip": "Now click somewhere in the world",
+            "name_camp_title": "Name your settlement",
+            "name_camp_prompt": "Type a name for your settlement!"
          },
          "calendar": {
             "months": {
-               "1": "격렬한 달",
-               "2": "깊은 달",
-               "3": "이슬의 달",
-               "4": "비의 달",
-               "5": "성장의 달",
-               "6": "풍요의 달",
-               "7": "축제의 달",
-               "8": "전쟁의 달",
-               "9": "새시작의 달",
-               "10": "하늘의 달",
-               "11": "마음의 달",
-               "12": "북쪽의 달"
+               "1": "Bittermun",
+               "2": "Deepmun",
+               "3": "Dewmun",
+               "4": "Rainmun",
+               "5": "Growmun",
+               "6": "Goldmun",
+               "7": "Feastmun",
+               "8": "Warmun",
+               "9": "Newmun",
+               "10": "Azuremun",
+               "11": "Hearthmun",
+               "12": "Northmun"
             },
             "month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-            "date_format_long": "[str(date.year)]년 i18n(stonehearth:ui.game.calendar.month_format)의 [str(date.day)]번째 날",
-            "date_time_long_format": "[str(date.year)]년 i18n(stonehearth:ui.game.calendar.month_format)의 [str(date.day)]번째 날, [str(date.time)]"
+            "date_format_long": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+            "date_time_long_format": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]"
          },
          "esc_menu": {
-            "title": "스톤하스(Stonehearth)",
-            "resume": "계속하기",
-            "save": "게임 저장 및 불러오기",
-            "settings": "설정",
-            "about": "소개",
-            "quit_to_menu": "메인메뉴로 나가기",
-            "exit_game": "게임 종료하기",
-            "post_bug": "버그 보내기",
+            "title": "Stonehearth",
+            "resume": "Resume",
+            "save": "Save or Load Game",
+            "settings": "Settings",
+            "about": "About",
+            "quit_to_menu": "Quit to Main Menu",
+            "exit_game": "Exit Game",
+            "post_bug": "Post a bug",
             "exit_confirm_dialog": {
-               "title": "게임종료",
-               "message": "게임을 종료하시겠습니까? 저장되지 않는 정보는 복구하실 수 없습니다",
-               "yes_button": "네",
-               "cancel_button": "취소"
+               "title": "Exit Game",
+               "message": "Completely exit the game? Any unsaved changes will be lost.",
+               "yes_button": "Yes",
+               "cancel_button": "Cancel"
             },
             "return_to_menu_dialog": {
-               "title": "메인메뉴로 나가기",
-               "message": "메인메뉴로 나가시겠습니까?",
-               "yes_button": "네",
-               "cancel_button": "취소"
+               "title": "Return to Main Menu",
+               "message": "Quit this game and return to main menu?",
+               "yes_button": "Yes",
+               "cancel_button": "Cancel"
             }
          },
          "entities": {
-            "custom_name": "[str(self.unit_info.custom_name)](self.unit_info.custom_name)",
-            "unknown_name": "알수없음",
+            "custom_name": "[str(self.unit_info.custom_name)]",
+            "unknown_name": "Unknown",
             "item_categories": {
-               "food": "음식",
-               "resources": "자원",
-               "furniture": "가구",
-               "armor": "장비",
-               "decoration": "꾸미기용 가구",
-               "construction": "건축자제",
-               "plants": "식물",
-               "weapons": "무기",
-               "tools": "도구",
-               "wealth": "재산",
-               "refined": "세련된",
-               "uncategorized": "분류되지않은",
-               "workshops": "작업대",
-               "consumable": "소비재",
-               "storage": "저장고",
-               "none": "없음"
+               "food": "Food",
+               "resources": "Resources",
+               "furniture": "Furniture",
+               "armor": "Armor",
+               "decoration": "Decoration",
+               "construction": "Construction",
+               "plants": "Plants",
+               "weapons": "Weapons",
+               "tools": "Tools",
+               "wealth": "Wealth",
+               "refined": "Refined",
+               "uncategorized": "Uncategorized",
+               "workshops": "Workshops",
+               "consumable": "Consumable",
+               "storage": "Storage",
+               "none": "None"
             },
-            "tooltip_combat_base_damage": "공격력:",
-            "tooltip_combat_base_damage_reduction": "방어력:",
-            "tooltip_num_undeployed": "배치되지않음: [str(num_undeployed)]",
-            "death_notification": "[name(i18n_data.entity)]가 전사했습니다.",
+            "tooltip_combat_base_damage": "Atk:",
+            "tooltip_combat_base_damage_reduction": "Def:",
+            "tooltip_num_undeployed": "Undeployed: [str(num_undeployed)]",
+            "death_notification": "[name(i18n_data.entity)] has died.",
             "imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!"
          },
          "menu": {
             "town_menu": {
-               "display_name": "마을 정보",
-               "description": "시민의 만족도나 재산 그리고 생긴 일등의 정보를 제공합니다."
+               "display_name": "Town Info",
+               "description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
             },
             "citizen_manager": {
-               "display_name": "시민",
-               "description": "시민들을 관리하며 시민의 직업을 변경할 수 있습니다"
+               "display_name": "Citizens",
+               "description": "Manage your hearthlings and promote them to new jobs."
             },
             "harvest_menu": {
-               "display_name": "채집",
-               "description": "필요한 자원을 채집합니다.",
+               "display_name": "Harvest",
+               "description": "Harvest resources or mine into the earth.",
                "items": {
                   "harvest": {
-                     "display_name": "수확",
-                     "description": "나무, 식물, 돌등 땅에 떨어져 있는 자원을 채집합니다.",
-                     "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Gather",
+                     "description": "Gather trees, plants, and stones from the surface of the land",
+                     "tip_title": "Click and drag to harvest resources",
+                     "tip_description": "Right click to exit this mode"
                   },
                   "mining_ui": {
-                     "display_name": "터널뚫기",
-                     "description": "터널 혹은 광산을 만듭니다",
-                     "tip_title": "클릭이나 드래그를 하세요",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Mine Tunnel",
+                     "description": "Mine out tunnels and caves",
+                     "tip_title": "Click and drag to dig downward",
+                     "tip_description": "Right click to exit"
                   },
                   "mine_block": {
-                     "display_name": "채굴",
-                     "description": "필요한 블럭만 채광합니다",
-                     "tip_title": "클릭이나 드래그를 하세요",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Mine Block",
+                     "description": "Mine individual blocks",
+                     "tip_title": "Click and drag to dig downward",
+                     "tip_description": "Right click to exit"
                   },
                   "cancel_task": {
-                     "display_name": "작업 취소",
-                     "description": "오브젝트에 내린 작업을 취소합니다.",
-                     "tip_title": "명령을 내린 오브젝트를 클릭이나 드래그 하세요",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Cancel Task",
+                     "description": "Cancel tasks on this object",
+                     "tip_title": "Click and drag to remove various commands",
+                     "tip_description": "Right click to exit this mode"
                   },
                   "clear_item": {
-                     "display_name": "지우기",
-                     "description": "월드에서 해당 아이템을 파괴합니다.",
-                     "tip_title": "지우고 싶은 아이템을 클릭이나 드래그를 하세요",
-                     "tip_description": "우클릭으로 종료할 수 있습니다",
-                     "confirm_title": "정말 이 아이템을 지우시겠습니까?",
-                     "confirm_message": "지워진 아이템은 복구할 수 없습니다",
-                     "confirm_clear": "네, 지워버리세요!",
-                     "confirm_clear_no": "아니요, 생각해보니 필요한 거 같아요!"
+                     "display_name": "Clear",
+                     "description": "Clear items out of the world",
+                     "tip_title": "Click and drag to permanently clear items from the world",
+                     "tip_description": "Right click to exit this mode",
+                     "confirm_title": "Are you really sure you want to clear these items?",
+                     "confirm_message": "Usable items in the area will be permanently destroyed",
+                     "confirm_clear": "Yes, destroy!",
+                     "confirm_clear_no": "No! I need that stuff!"
                   }
                }
             },
             "zone_menu": {
-               "display_name": "지역 지정",
-               "description": "농장이나 저장고 같은 지역을 지정합니다.",
+               "display_name": "Designate Zones",
+               "description": "Designate areas of the ground for storage, farming, etc.",
                "items": {
                   "create_stockpile": {
-                     "display_name": "비축소",
-                     "description": "자원을 저장할 수 있는 비축소의 지역을 지정합니다.",
-                     "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Stockpile",
+                     "description": "Place a stockpile for storing resources.",
+                     "tip_title": "Click and drag to create your stockpile",
+                     "tip_description": "Right click to exit this mode"
                   },
                   "create_farm": {
-                     "display_name": "농장",
-                     "description": "농장을 건설 할 지역을 지정합니다.",
-                     "required_job_text": "농부가 필요합니다.",
-                     "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
-                     "tip_description": "농부는 이곳을 개간해 작물을 수확합니다."
+                     "display_name": "Farm",
+                     "description": "Place a farm on the terrain.",
+                     "required_job_text": "Requires a farmer",
+                     "tip_title": "Click and drag to designate a new field",
+                     "tip_description": "Farmers will break ground and plant crops here"
                   },
                   "create_trapping_grounds": {
-                     "display_name": "덫 설치",
-                     "description": "덫을 설치할 지역을 지정합니다.",
-                     "required_job_text": "사냥꾼이 필요합니다.",
-                     "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
-                     "tip_description": "사냥꾼은 이곳에 덫을 설치해 가죽이나 고기 혹은 가축을 얻을 수 있습니다."
+                     "display_name": "Trapping Ground",
+                     "description": "Place traps to capture small critters.",
+                     "required_job_text": "Requires a trapper",
+                     "tip_title": "Click and drag to create trapping grounds",
+                     "tip_description": "Trappers catch critters for food and resources in this zone"
                   },
                   "create_pasture": {
-                     "display_name": "목초지",
-                     "description": "동물들이 살아 갈 목초지의 지역을 지정합니다.",
-                     "required_job_text": "양치기가 필요합니다.",
-                     "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
-                     "tip_description": "양치기는 이곳에 동물의 먹이를 주는 등의 관리를 합니다."
+                     "display_name": "Animal Pasture",
+                     "description": "The shepherd will bring animals here to graze.",
+                     "required_job_text": "Requires a shepherd",
+                     "tip_title": "Click and drag to create an animal pasture",
+                     "tip_description": "Shepherds bring animals to this region and tend to their needs here."
                   }
                }
             },
             "build_menu": {
-               "display_name": "건설과 디자인",
-               "description": "당신만이 건물을 건설해 보세요!",
+               "display_name": "Build & Design",
+               "description": "Build structures like houses and city walls.",
                "items": {
                   "building_templates": {
-                     "display_name": "건물 건설",
-                     "description": "저장되어있는 도면을 통해서 건물을 건설합니다."
+                     "display_name": "Place Building",
+                     "description": "Choose to construct a building from a pre-designed template"
                   },
                   "custom_building": {
-                     "display_name": "건물 디자인",
-                     "description": "건물을 디자인하고 건설해보세요!"
+                     "display_name": "Design Building",
+                     "description": "Design your own one-of-a-kind building"
                   },
                   "place_item": {
-                     "display_name": "아이템 설치",
-                     "description": "가구나 꾸미기 아이템을 배치할 수 있습니다",
-                     "tip_title": "클릭으로 아이템을 배치해보세요",
-                     "tip_description": ", 와 .키로 회전 할 수 있습니다."
+                     "display_name": "Place Item",
+                     "description": "Place items like furniture and decoration",
+                     "tip_title": "Click to place this item",
+                     "tip_description": "Rotate with , and . keys"
                   },
                   "build_ladder": {
-                     "display_name": "사다리 설치",
-                     "description": "시민들이 절벽을 오를 수 있도록 사다리를 설치합니다.",
-                     "tip_title": "절벽을 클릭하면 시민들이 사다리를 건설합니다.",
-                     "tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>우클릭으로 종료할 수 있습니다"
+                     "display_name": "Construct Ladder",
+                     "description": "Build a ladder to access hard to reach places",
+                     "tip_title": "Click on a wall to build ladders",
+                     "tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
                   }
                }
             },
             "fight_menu": {
-               "display_name": "공격과 방어",
-               "description": "전투관리",
+               "display_name": "Fight & Defend",
+               "description": "Manage your combat forces",
                "items": {
                   "party_manager": {
-                     "display_name": "파티",
+                     "display_name": "Parties",
                      "description": "Organize your troops into groups"
                   },
                   "town_alert": {
-                     "display_name": "마을 경계 모드!",
-                     "description": "마을 침입자를 대비해 마을로 집합합니다",
-                     "activated_title": "마을 경계 활성화!",
+                     "display_name": "Town Alert Mode!",
+                     "description": "Rally your hearthlings to prepare for intruders!",
+                     "activated_title": "Town Alert Mode Activated!",
                      "activated_text": "Your hearthlings are vigilantly watching for intruders. Hearthlings not enrolled in the militia will run to safety points."
                   },
                   "loot_item": {
-                     "display_name": "전리품 획득",
-                     "description": "다른 플레이어의 아이템 스틸",
-                     "tip_title": "클릭 후 드래그로 월드에 있는 아이템을 얻을 수 있습니다.",
-                     "tip_description": "우클릭으로 종료할 수 있습니다"
+                     "display_name": "Loot",
+                     "description": "Steal items from another player.",
+                     "tip_title": "Click and drag to loot items from the world",
+                     "tip_description": "Right click to exit this mode"
                   },
                   "party_1": {
-                     "display_name": "전투 파티 1",
+                     "display_name": "Combat Party 1",
                      "description": "Direct hearthlings with combat jobs into battle! Promoted combat classes are automatically added here.",
                      "tip_title": "The party is selected in the unit frame.",
-                     "tip_description": "The party is selected in the unit frame."
+                     "tip_description": "Use the commands in the unit frame to direct the people in the party."
                   },
                   "party_2": {
-                     "display_name": "전투 파티",
+                     "display_name": "Combat Party",
                      "description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
                      "tip_title": "The party is selected in the unit frame.",
                      "tip_description": "Use the commands in the unit frame to direct the people in the party."
                   },
                   "party": {
-                     "required_job_text": "전사가 필요합니다."
+                     "required_job_text": "Requires a footman"
                   }
                }
             },
             "crafter_menu": {
-               "display_name": "제작",
-               "description": "건설 및 제작 관리",
+               "display_name": "Crafters",
+               "description": "Build and manage crafting workshops",
                "items": {
                   "carpenter": {
-                     "display_name": "목수 메뉴",
-                     "description": "나무로 만들 수 있는 가구를 제작합니다.",
-                     "required_job_text": "목수가 필요합니다."
+                     "display_name": "Carpenter Craft Menu",
+                     "description": "Build wooden furniture and decor.",
+                     "required_job_text": "Requires a carpenter"
                   },
                   "weaver": {
-                     "display_name": "방직공 메뉴",
-                     "description": "옷이나 섬유 그리고 가구를 제작합니다",
-                     "required_job_text": "방직공이 필요합니다."
+                     "display_name": "Weaver Craft Menu",
+                     "description": "Create clothes, fabrics, and decor.",
+                     "required_job_text": "Requires a weaver"
                   },
                   "mason": {
-                     "display_name": "석공 메뉴",
-                     "description": "돌을 깎아 무기나 도구 혹은 가구를 제작합니다.",
-                     "required_job_text": "석공이 필요합니다"
+                     "display_name": "Mason Craft Menu",
+                     "description": "Chisel stone weapons and furniture.",
+                     "required_job_text": "Requires a mason"
                   },
                   "blacksmith": {
-                     "display_name": "대장장이 메뉴",
-                     "description": "광석을 제련하고 도구를 제작합니다",
-                     "required_job_text": "대장장이가 필요합니다."
+                     "display_name": "Blacksmith Craft Menu",
+                     "description": "Smelt ore for weapons and armor.",
+                     "required_job_text": "Requires a blacksmith"
                   },
                   "cook": {
-                     "display_name": "요리사 메뉴",
-                     "description": "맛있고 유통기간이 긴 음식을 만듭니다",
-                     "required_job_text": "요리사가 필요합니다."
+                     "display_name": "Cook Craft Menu",
+                     "description": "Makes food taste better and last longer.",
+                     "required_job_text": "Requires a cook"
                   },
                   "potter": {
-                     "display_name": "도예가 메뉴",
-                     "description": "점토를 이용해서 도자기를 제작합니다.",
-                     "required_job_text": "도예가가 필요합니다."
+                     "display_name": "Potter Craft Menu",
+                     "description": "Makes bricks and goods from clay.",
+                     "required_job_text": "Requires a potter"
                   },
                   "herbalist": {
-                     "display_name": "약초사 메뉴",
-                     "description": "허브를 통해 회복 아이템을 제작합니다.",
-                     "required_job_text": "약초사가 필요합니다."
+                     "display_name": "Herbalist Craft Menu",
+                     "description": "Makes healing items from herbs.",
+                     "required_job_text": "Requires an herbalist"
                   }
                }
             },
             "bulletin_manager": {
-               "display_name": "보고서",
-               "description": "마을에서 생긴 일이나 안내사항이 모여있습니다."
+               "display_name": "Bulletins",
+               "description": "Important notifications about the world and your town"
             },
             "tasks_manager": {
                "display_name": "Manage Tasks",
                "description": "Do task stuff.",
-               "remove_stockpile": "비축소 해제",
-               "pause_stockpile": "정지",
-               "resume_stockpile": "다시 시작",
+               "remove_stockpile": "Remove Stockpile",
+               "pause_stockpile": "Pause",
+               "resume_stockpile": "Resume",
                "group": {
-                  "stockpiles": "비축소",
-                  "building": "건설",
-                  "placement": "아이템 설치",
-                  "maintenance": "유지보수",
-                  "farming": "농사 중",
-                  "harvesting": "수확 중",
-                  "mining": "채광 중",
-                  "trapping": "사냥 중"
+                  "stockpiles": "Stockpiles",
+                  "building": "Building",
+                  "placement": "Placed Items",
+                  "maintenance": "General Maintenance",
+                  "farming": "Farming",
+                  "harvesting": "Harvesting",
+                  "mining": "Mining",
+                  "trapping": "Trapping"
                },
-               "percent_full": "[str(percent)]% 참",
-               "active": "활성화",
-               "paused": "중지"
+               "percent_full": "[str(percent)] Percent Full",
+               "active": "active",
+               "paused": "paused"
             },
             "warnings": {
-               "town_inventory_full": "마을 저장고 꽉 참!"
+               "town_inventory_full": "Town Inventory Full"
             }
          },
          "bulletin": {
-            "bulletin_list_title": "공지사항",
+            "bulletin_list_title": "Notifications",
             "shop": {
-               "buy_1": "1개 구매",
-               "buy_10": "10개 구매",
-               "buy_all": "모두 구매",
-               "sell_1": "1개 판매",
-               "sell_10": "10개 판매",
-               "sell_all": "모두 판매",
-               "buy_tab": "구매",
-               "sell_tab": "판매",
-               "not_enough_gold_tooltip": "황금이 부족합니다."
+               "buy_1": "Buy 1",
+               "buy_10": "Buy 10",
+               "buy_all": "Buy All",
+               "sell_1": "Sell 1",
+               "sell_10": "Sell 10",
+               "sell_all": "Sell All",
+               "buy_tab": "Buy",
+               "sell_tab": "Sell",
+               "not_enough_gold_tooltip": "Not enough gold"
             },
             "quest_bulletin": {
-               "title": "새로운 메시지"
+               "title": "New Message"
             },
             "level_up_bulletin": {
-               "title": "[name(i18n_data.entity)]가 레벨업 하였습니다!",
-               "show_char_sheet": "캐릭터 정보"
+               "title": "[name(i18n_data.entity)] has Leveled Up!",
+               "show_char_sheet": "Character Sheet"
             },
             "immigration_report": {
-               "title": "일일 보고서",
-               "immigration_report_title": "이주 보고서",
-               "population_label": "[str(town_name)]의 현재 인구 수",
-               "next_requirements_label": "허스닝 이주 조건"
+               "title": "Daily Update",
+               "immigration_report_title": "Immigration Report",
+               "population_label": "[str(town_name)] population",
+               "next_requirements_label": "Next hearthling requirements..."
             },
             "collection_quest": {
-               "pay": "여기요!",
+               "pay": "Here you go!",
                "cancel": "I've changed my mind"
             },
             "inventory_full": {
-               "title": "마을 저장고 꽉 참!",
+               "title": "Town Inventory Full",
                "message": "Your town inventory is full! Hearthlings hate cluttered towns and will not harvest resources with a full inventory. Sell off the extra items or destroy them using the clear item tool."
             }
          },
          "build_mode": {
             "tooltips": {
-               "building_tools": "건설 도구",
-               "voxel_tools": "복쉘 도구",
-               "voxel_add": "복쉘 추가",
+               "building_tools": "Building Tools",
+               "voxel_tools": "Voxel Tools",
+               "voxel_add": "Add Voxel",
                "voxel_paint": "Paint Voxel",
-               "voxel_remove": "복쉘 제거",
-               "selection": "선택",
-               "delete": "제거",
-               "undo": "되돌리기",
-               "draw_slab_tool": "반블럭",
-               "draw_floor_tool": "토대",
-               "grow_floor_tool": "바닥",
-               "grow_roof_tool": "지붕",
-               "draw_door_tool": "문",
-               "draw_window_tool": "창문",
-               "grow_wall_tool": "벽",
+               "voxel_remove": "Remove Voxel",
+               "selection": "Selection",
+               "delete": "Delete",
+               "undo": "Undo",
+               "draw_slab_tool": "Slabs",
+               "draw_floor_tool": "Foundations",
+               "grow_floor_tool": "Floors",
+               "grow_roof_tool": "Roofs",
+               "draw_door_tool": "Doors",
+               "draw_window_tool": "Windows",
+               "grow_wall_tool": "Walls",
                "draw_wall_tool": "Free Standing Walls",
-               "draw_road_tool": "길",
-               "place_furniture_tool": "가구",
-               "place_decoration_tool": "장식품",
-               "erase_tool": "지우기"
+               "draw_road_tool": "Roads",
+               "place_furniture_tool": "Furniture",
+               "place_decoration_tool": "Decorations",
+               "erase_tool": "Erase"
             },
             "overhead_tips": {
                "wall_segment_tip_title": "Click to place freestanding wall segments",
                "wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
                "build_title_building_designer": "Building Designer",
                "build_floor_tip_title": "Click and drag to place floor tiles",
-               "build_floor_tip_description": "우클릭으로 나가기",
+               "build_floor_tip_description": "Right click to exit",
                "build_slab_tip_title": "Click and drag to build a slab",
-               "build_slab_tip_description": "우클릭으로 나가기",
+               "build_slab_tip_description": "Right click to exit",
                "erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-               "erase_structure_tip_description": "우클릭으로 나가기",
+               "erase_structure_tip_description": "Right click to exit",
                "roof_tip_title": "Click a walled floorplan to place the roof",
-               "roof_tip_description": "우클릭으로 나가기",
+               "roof_tip_description": "Right click to exit",
                "raise_walls_tip_title": "Click a floorplan to add walls",
-               "raise_walls_tip_description": "우클릭으로 나가기",
+               "raise_walls_tip_description": "Right click to exit",
                "doodad_tip_title": "Click a wall to place the door or window",
-               "doodad_tip_description": "우클릭으로 나가기",
+               "doodad_tip_description": "Right click to exit",
                "draw_template_title": "Click to build template",
                "draw_template_description": "Rotate with , and . keys",
                "build_road_tip_title": "Click and drag to build road",
-               "build_road_tip_description": "우클릭으로 나가기"
+               "build_road_tip_description": "Right click to exit"
             },
             "building_cost": {
-               "required_item": "필요 아이템"
+               "required_item": "Required Items"
             },
             "overview": {
-               "title": "건축 디자인 - [str(building_name)]",
-               "building_name": "건물 이름",
-               "building_cost": "건설에 필요한 자원",
-               "start_building": "건설!",
-               "pause_building": "건설 중지",
-               "save_building_template": "저장",
-               "finished_editing": "편집 완료",
-               "start_editing": "편집"
+               "title": "Building Designer - [str(building_name)]",
+               "building_name": "Building Name",
+               "building_cost": "Building Cost",
+               "start_building": "Build!",
+               "pause_building": "Pause building",
+               "save_building_template": "Save",
+               "finished_editing": "Finished Editing",
+               "start_editing": "Edit"
             },
             "roof_shape": {
                "title": "Slope, Direction, & Size",
-               "max_height": "최대 높이",
+               "max_height": "Max Height",
                "rise_slope": "Rise Slope",
                "y_offset": "Roof Offset",
                "show_gradient": "Slope",
@@ -657,84 +657,84 @@
                   "clay_dormitory": "Clay Dormitory"
                },
                "set_template_name_title": "Template Name",
-               "template_default_name": "새로운 건설도면",
+               "template_default_name": "My new building template",
                "set_template_name_prompt": "Enter a name for this template"
             },
             "place_item": {
-               "title": "아이템 설치"
+               "title": "Place an Item"
             },
             "materials": {
                "wall": {
-                  "material": "벽의 재료",
-                  "wood_resource": "나무 벽",
-                  "stone_resource": "석재 벽",
-                  "clay_resource": "점토 벽",
-                  "clay_brick_resource": "벽돌 벽"
+                  "material": "Wall Material",
+                  "wood_resource": "Wooden Wall",
+                  "stone_resource": "Stone Wall",
+                  "clay_resource": "Clay Wall",
+                  "clay_brick_resource": "Clay Brick Wall"
                },
                "floor": {
-                  "material": "바닥의 재료",
-                  "wood_resource": "나무 바닥",
-                  "stone_resource": "석재 벽",
-                  "clay_resource": "점토 바닥",
-                  "clay_brick_resource": "벽돌 바닥"
+                  "material": "Floor Material",
+                  "wood_resource": "Wooden Floor",
+                  "stone_resource": "Stone Floor",
+                  "clay_resource": "Clay Floor",
+                  "clay_brick_resource": "Clay Brick Floor"
                },
                "roof": {
-                  "material": "지붕의 재료",
-                  "wood_resource": "나무 지붕",
-                  "stone_resource": "석재 지붕",
-                  "clay_resource": "점토 지붕",
-                  "clay_brick_resource": "벽돌 지붕"
+                  "material": "Roof Material",
+                  "wood_resource": "Wooden Roof",
+                  "stone_resource": "Stone Roof",
+                  "clay_resource": "Clay Roof",
+                  "clay_brick_resource": "Clay Brick Roof"
                },
                "column": {
-                  "material": "기둥의 재료",
-                  "wood_resource": "나무 기둥",
-                  "stone_resource": "석재 기둥",
-                  "clay_resource": "점토 기둥",
-                  "clay_brick_resource": "벽돌 기둥"
+                  "material": "Column Material",
+                  "wood_resource": "Wooden Column",
+                  "stone_resource": "Stone Column",
+                  "clay_resource": "Clay Column",
+                  "clay_brick_resource": "Clay Brick Column"
                },
                "road": {
-                  "material": "길의 재료",
-                  "wood_resource": "나무 길",
-                  "stone_resource": "석재 길",
-                  "clay_resource": "점토 길",
-                  "clay_brick_resource": "벽돌 길"
+                  "material": "Road Material",
+                  "wood_resource": "Wooden Road",
+                  "stone_resource": "Stone Road",
+                  "clay_resource": "Clay Road",
+                  "clay_brick_resource": "Clay Brick Road"
                },
                "doors": {
-                  "material": "문",
-                  "wood_resource": "나무 문",
-                  "stone_resource": "석재 문",
-                  "clay_resource": "점토 문"
+                  "material": "Door Material",
+                  "wood_resource": "Wooden Door",
+                  "stone_resource": "Stone Door",
+                  "clay_resource": "Clay Door"
                },
                "windows": {
-                  "material": "창문의 재료",
-                  "wood_resource": "나무 창문",
-                  "stone_resource": "석재 창문",
-                  "clay_resource": "점토 창문"
+                  "material": "Window Material",
+                  "wood_resource": "Wooden Window",
+                  "stone_resource": "Stone Window",
+                  "clay_resource": "Clay Window"
                }
             },
             "start_building_confirm": {
-               "title": "정말 건설하시겠습니까?",
-               "message": "건설을 시작하면 편집할 수 없습니다. 정말 건설을 시작하시겠습니까?",
-               "yes": "네 시작합시다!",
-               "no": "아직 좀 더..."
+               "title": "Really start building?",
+               "message": "Once you begin building this structure it cannot be edited. Are you sure you want to build now?",
+               "yes": "Yes, start building!",
+               "no": "Not yet"
             },
             "remove_building_confirm": {
-               "title": "건물 철거 확인",
-               "message": "정말 이 건물을 철거하길 원하십니까?",
-               "keep_building": "철거하지 않음",
-               "remove_building": "철거 시작"
+               "title": "Really remove this building",
+               "message": "Are you sure you want to remove this entire building?",
+               "keep_building": "Keep this building",
+               "remove_building": "Remove this building"
             }
          },
          "zones_mode": {
             "farm": {
-               "choose_crop": "작물 선택",
-               "fallow_name": "휴농지",
-               "fallow_description": "작물이 심어져 있지 않습니다."
+               "choose_crop": "Choose a Crop",
+               "fallow_name": "Fallow",
+               "fallow_description": "Plant no crop and let the soil renew itself."
             },
             "mining": {
                "help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
-               "disable": "채굴 정지",
-               "enable": "채굴 시작"
+               "disable": "Suspend Mining",
+               "enable": "Resume Mining"
             },
             "trapping_grounds": {
                "help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
@@ -743,174 +743,174 @@
             },
             "pasture": {
                "help": "Shepherds bring animals to this region and tend to their needs here.",
-               "choose_pasture_type": "환경 선택",
-               "sheep_pasture_name": "양 목초지",
-               "rabbit_pasture_name": "토끼 우리",
-               "poyo_pasture_name": "닭장",
-               "sheep_pasture_description": "닭은 양털을 생산하며 고기를 얻을 수 있습니다..",
-               "rabbit_pasture_description": "토끼를 육포로 만들 수 있습니다.",
-               "poyo_pasture_description": "닭은 달걀을 생산하며, 요리에 사용할 수 있습니다.",
-               "num_animals": "동물:"
+               "choose_pasture_type": "Choose Pasture Type",
+               "sheep_pasture_name": "Sheep Pasture",
+               "rabbit_pasture_name": "Rabbit Pen",
+               "poyo_pasture_name": "Poyo Coop",
+               "sheep_pasture_description": "Sheep produce wool and can be a source of meat.",
+               "rabbit_pasture_description": "Rabbits can be a source of jerky.",
+               "poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient.",
+               "num_animals": "Animals:"
             },
             "stockpile": {
-               "default_stockpile_name": "[str(self.unit_info.custom_name)]번째 비축소",
-               "contents": "물품",
-               "filter": "필터",
-               "help": "체크박스나 아이콘을 눌러서 저장할 물품의 종류를 선택할 수 있습니다",
-               "used_space": "저장량:",
+               "default_stockpile_name": "Stockpile No.[str(self.unit_info.custom_name)]",
+               "contents": "Contents",
+               "filter": "Filter",
+               "help": "Click the icons to choose what to store in this stockpile.",
+               "used_space": "Used space:",
                "filters": {
-                  "all": "모두",
-                  "none": "없음",
-                  "resources": "자원",
-                  "construction": "건축자제",
-                  "goods": "도구와 좋은 아이템",
-                  "gear": "무기와 방어구",
-                  "food_and_drink": "음식",
-                  "wealth": "재산",
-                  "tooltip_tools": "도구",
-                  "tooltip_wood": "나무",
-                  "tooltip_stone": "돌",
-                  "tooltip_clay": "점토",
-                  "tooltip_ore": "광석",
-                  "tooltip_animal_part": "동물 부위",
+                  "all": "All",
+                  "none": "None",
+                  "resources": "Resources",
+                  "construction": "Construction",
+                  "goods": "Tools & Goods",
+                  "gear": "Weapons & Armor",
+                  "food_and_drink": "Food & Drink",
+                  "wealth": "Wealth",
+                  "tooltip_tools": "Tools",
+                  "tooltip_wood": "wood",
+                  "tooltip_stone": "stone",
+                  "tooltip_clay": "clay",
+                  "tooltip_ore": "ore",
+                  "tooltip_animal_part": "animal parts",
                   "tooltip_earth": "materials made of earth",
-                  "tooltip_plant": "식물",
-                  "tooltip_portal": "문과 창문",
-                  "tooltip_furniture": "가구",
-                  "tooltip_defense": "방어막",
-                  "tooltip_light": "횃불과 전등",
-                  "tooltip_decoration": "꾸미기 가구",
-                  "tooltip_refined_cloth": "옷과 도구",
-                  "tooltip_refined_animal_part": "좋은 동물 부위",
-                  "tooltip_refined_ore": "주괴",
-                  "tooltip_melee_weapon": "근접무기",
-                  "tooltip_ranged_weapon": "장거리 무기",
-                  "tooltip_light_armor": "경갑",
-                  "tooltip_heavy_armor": "중갑",
-                  "tooltip_exotic_gear": "마법무기",
-                  "tooltip_drink": "맛있는 음료",
-                  "tooltip_gold": "황금",
-                  "tooltip_gem": "보석과 트로피",
-                  "tooltip_food_containers": "음식",
-                  "tooltip_prepared_food": "조리된 음식",
-                  "tooltip_ingredients": "조리되지 않은 음식",
-                  "tooltip_healing_items": "회복 아이템과 기타 소모품"
+                  "tooltip_plant": "plants",
+                  "tooltip_portal": "doors & windows",
+                  "tooltip_furniture": "furniture",
+                  "tooltip_defense": "defenses",
+                  "tooltip_light": "torches & lights",
+                  "tooltip_decoration": "decorations",
+                  "tooltip_refined_cloth": "thread & cloth",
+                  "tooltip_refined_animal_part": "goods produced from bits of animals",
+                  "tooltip_refined_ore": "metal bars",
+                  "tooltip_melee_weapon": "melee weapons",
+                  "tooltip_ranged_weapon": "ranged weapons",
+                  "tooltip_light_armor": "light armor",
+                  "tooltip_heavy_armor": "heavy armor",
+                  "tooltip_exotic_gear": "exotic gear",
+                  "tooltip_drink": "tasty beverages",
+                  "tooltip_gold": "gold",
+                  "tooltip_gem": "gems and trophies",
+                  "tooltip_food_containers": "food containers",
+                  "tooltip_prepared_food": "cooked foods",
+                  "tooltip_ingredients": "raw ingredients",
+                  "tooltip_healing_items": "healing items and other consumables"
                }
             }
          },
          "show_workshop": {
-            "workshop_title": "[str(job_name)]에게 작업 명령",
-            "placeholder": "검색하기",
-            "show_workshop_description": "[name(owner)]의 소유",
-            "unclaimed_workshop_description": "공용",
-            "workshop_entity_claimed_description": "주인: [name(self.stonehearth:workshop.crafter)]",
-            "craft_number_left": "바로",
-            "craft_number_right": "개 만들기.",
-            "craft_up_to_left": "인벤토리에 ",
-            "craft_up_to_right": "만큼 유지시키기.",
-            "craft_ingredients": "재료:",
-            "craft_requirements": "조건:",
-            "unlock_text": "요구 조건:",
-            "crafting_status": "제작중...",
-            "crafting_status_queued": "대기중",
-            "workshop_paused_status": "정지...",
-            "workshop_remove_confirm": "삭제?",
-            "workshop_open": "영업시작!",
-            "workshop_closed": "영업 종료",
+            "workshop_title": "[str(job_name)] Crafting Orders",
+            "placeholder": "Type to search",
+            "show_workshop_description": "Owned by [name(owner)]",
+            "unclaimed_workshop_description": "Unclaimed",
+            "workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
+            "craft_number_left": "Craft",
+            "craft_number_right": "right now.",
+            "craft_up_to_left": "Maintain",
+            "craft_up_to_right": "in inventory.",
+            "craft_ingredients": "Ingredients:",
+            "craft_requirements": "Requirements:",
+            "unlock_text": "To Unlock:",
+            "crafting_status": "crafting...",
+            "crafting_status_queued": "Queued",
+            "workshop_paused_status": "paused...",
+            "workshop_remove_confirm": "Remove?",
+            "workshop_open": "Open!",
+            "workshop_closed": "Closed",
             "maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
-            "craft": "제작!",
-            "craft_queue_full": "주문이 꽉참!",
-            "craftable_locked": "요구 레벨: [str(level)]",
-            "workshop_requirement_title": "작업대",
-            "workshop_none_required": "요구 조건 없음!",
-            "workshop_required": "설치 필요: ",
-            "level_requirement_title": "요구 레벨",
-            "level_requirement_none": "요구 조건 없음!",
-            "level_requirement_needed": " ",
-            "level_requirement_level": " ",
-            "too_many_symbol": "많은",
-            "requirements_unmet_general": "요구사항이 충족되지 않음!",
-            "queue_anyway": "작업 대기",
-            "recipe_tab": "제작법",
-            "orders_tab": "제작 중",
-            "missing_ingredients": "재료 부족 : "
+            "craft": "Craft!",
+            "craft_queue_full": "Orders Full!",
+            "craftable_locked": "Unlocked at Level: [str(level)]",
+            "workshop_requirement_title": "Workshop",
+            "workshop_none_required": "None required!",
+            "workshop_required": "Requires a placed ",
+            "level_requirement_title": "Level Requirement",
+            "level_requirement_none": "None Required!",
+            "level_requirement_needed": "Requires a ",
+            "level_requirement_level": " of Level ",
+            "too_many_symbol": "lots",
+            "requirements_unmet_general": "Craft Requirements Unmet!",
+            "queue_anyway": "Queue Order Anyway",
+            "recipe_tab": "Recipes",
+            "orders_tab": "Orders",
+            "missing_ingredients": "Missing ingredients: "
          },
          "town_overview": {
-            "title": "마을 정보",
+            "title": "Town Overview",
             "journal": {
                "default_message": "No journal entries yet!",
                "signature": "--[name(entry.person)]",
-               "today": "오늘",
-               "town_log": "타운 일지",
+               "today": "Today",
+               "town_log": "Town Log",
                "praises": "Praises",
                "gripes": "Gripes",
-               "praise_empty": "오늘은 아무 일도 일어나지 않았다.",
-               "gripe_empty": "나는 어떤 불만도 가지고 있지 않아요."
+               "praise_empty": "Nothing praiseworthy happened today.",
+               "gripe_empty": "Whoa. I guess nobody has anything to gripe about."
             },
             "networth": {
                "town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
                "size": {
-                  "camp": "캠프",
-                  "settlement": "정착지",
-                  "hamlet": "촌락",
-                  "village": "마을",
-                  "town": "도시",
-                  "county": "자치 주",
-                  "kingdom": "왕국",
-                  "empire": "제국"
+                  "camp": "Camp",
+                  "settlement": "Settlement",
+                  "hamlet": "Hamlet",
+                  "village": "Village",
+                  "town": "Town",
+                  "county": "County",
+                  "kingdom": "Kingdom",
+                  "empire": "Empire"
                },
                "morale_descriptor": {
-                  "0": "끔찍함",
-                  "1": "초라함",
-                  "2": "실의에 빠짐",
-                  "3": "무기력함",
-                  "4": "적당함",
-                  "5": "좋음",
-                  "6": "만족함",
-                  "7": "즐거움",
-                  "8": "아주 기쁨",
-                  "9": "자신있음",
-                  "10": "열정적임"
+                  "0": "Wretched",
+                  "1": "Miserable",
+                  "2": "Dejected",
+                  "3": "Listless",
+                  "4": "Fair",
+                  "5": "Good",
+                  "6": "Contented",
+                  "7": "Merry",
+                  "8": "Joyous",
+                  "9": "Buoyant",
+                  "10": "Incandescent"
                }
             },
             "score": {
-               "net_worth": "현재 재산",
-               "buildings": "건물",
-               "inventory": "물품",
-               "agriculture": "농업",
-               "edibles": "식용품",
-               "overall_morale": "종합 만족도",
-               "food": "음식",
-               "shelter": "주거지",
-               "safety": "신변보호"
+               "net_worth": "Net worth",
+               "buildings": "Buildings",
+               "inventory": "Inventory",
+               "agriculture": "Agriculture",
+               "edibles": "Edibles",
+               "overall_morale": "Overall Morale",
+               "food": "Food",
+               "shelter": "Shelter",
+               "safety": "Safety"
             },
             "inventory": {
-               "item_count": "아이템:"
+               "item_count": "Items:"
             },
             "tab": {
-               "town_overview": "마을 정보",
-               "inventory": "인벤토리",
-               "journal": "일기"
+               "town_overview": "Town Overview",
+               "inventory": "Inventory",
+               "journal": "Journal"
             }
          }
       },
       "shell": {
          "about": {
-            "title": "스톤하스 소개",
-            "attributions": "스톤하스에서 사용하는 오픈 소스 소프트웨어 입니다:"
+            "title": "About Stonehearth",
+            "attributions": "The following is a list of OpenSource Software that is used in Stonehearth:"
          },
          "loading_screen": {
-            "initial_load_map_text": "월드 생성 중",
+            "initial_load_map_text": "Generating World",
             "loading_map_flavor_text": {
                "001": "sharpening right angles...",
                "002": "decompressing voxels...",
                "003": "synthesizing fauna...",
-               "004": "redistubuting redistrubutables...",
+               "004": "redistributing redistributables...",
                "005": "terracing terrain...",
                "006": "stocking piles...",
                "007": "inflating trees...",
-               "008": "태양이 떠오르는 중",
-               "009": "구름을 평평하게 만드는 중...",
+               "008": "rising sun...",
+               "009": "floating clouds...",
                "010": "burlying hands...",
                "011": "bushing berries...",
                "012": "confabulating childhood...",
@@ -922,7 +922,7 @@
                "018": "diversifying gender...",
                "019": "homogenizing motivation...",
                "020": "deriving history...",
-               "021": "버그를 찾는 중...",
+               "021": "indexing bugs...",
                "022": "compiling truth...",
                "023": "recollecting marbles...",
                "024": "effecting mass...",
@@ -940,51 +940,51 @@
                "004": "You can farm silkweed for a steady supply of thread fiber.",
                "005": "A well fed town is a happy town.",
                "006": "Use the . and , keys to rotate an item or building before placing it.",
-               "007": "Your 허스링 move faster on roads.",
+               "007": "Your hearthlings move faster on roads.",
                "008": "The weaver can craft new uniforms that increases the effectiveness of your workers.",
-               "009": "Sitting during a meal helps with digestion. Build tables and chairs for your 허스링.",
+               "009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
                "010": "Shepherds will automatically find sheep to fill a pasture.",
                "011": "If you want a higher net worth, try selling your items to a merchant for gold"
             }
          },
          "new_game": {
-            "title": "새로운 게임",
-            "normal_game": "보통",
-            "peaceful_game": "평화로움",
+            "title": "New Game",
+            "normal_game": "Normal Game",
+            "peaceful_game": "Peaceful Game",
             "normal_game_description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
             "peaceful_game_description": "A sandbox mode where you're free to build your town without worrying about invaders.",
-            "create_game": "게임 생성"
+            "create_game": "Create Game"
          },
          "select_settlement": {
-            "title": "정착을 원하는 장소를 클릭하세요",
-            "loading": "로딩 중...",
-            "settle_at_this_location": "이곳에 정착!",
-            "clear_selection": "다른 곳을 더 찾아 볼래",
-            "regenerate_map": "맵 변경",
-            "world_seed": "시드: ",
+            "title": "Click the map to choose your settlement's location",
+            "loading": "Loading...",
+            "settle_at_this_location": "Settle here!",
+            "clear_selection": "Choose another location",
+            "regenerate_map": "Roll new map",
+            "world_seed": "World Seed: ",
             "terrain_stats": {
-               "trees_and_plants_title": "식물",
+               "trees_and_plants_title": "Trees & Plants",
                "trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
-               "wildlife_title": "야생동물",
+               "wildlife_title": "Wildlife",
                "wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
-               "minerals_title": "광물",
+               "minerals_title": "Minerals",
                "minerals_description": "You will need minerals if you plan on building things from stone or metal."
             },
             "terrain_codes": {
-               "water": "물",
-               "plains_1": "초원",
-               "plains_2": "초원",
-               "foothills_1": "언덕",
-               "foothills_2": "언덕",
-               "foothills_3": "언덕",
-               "mountains_1": "산",
-               "mountains_2": "산",
-               "mountains_3": "산",
-               "mountains_4": "산봉우리",
-               "mountains_5": "산봉우리",
-               "mountains_6": "산봉우리",
-               "mountains_7": "산봉우리",
-               "mountains_8": "산봉우리",
+               "water": "Water",
+               "plains_1": "Plains",
+               "plains_2": "Plains",
+               "foothills_1": "Foothills",
+               "foothills_2": "Foothills",
+               "foothills_3": "Foothills",
+               "mountains_1": "Mountains",
+               "mountains_2": "Mountains",
+               "mountains_3": "Mountains",
+               "mountains_4": "Mountain Peak",
+               "mountains_5": "Mountain Peak",
+               "mountains_6": "Mountain Peak",
+               "mountains_7": "Mountain Peak",
+               "mountains_8": "Mountain Peak",
                "vegetation_0": "Nary a weed",
                "vegetation_1": "Sparse",
                "vegetation_2": "Average",
@@ -1003,43 +1003,43 @@
             }
          },
          "settings": {
-            "title": "설정",
-            "graphics": "그래픽",
-            "gameplay": "게임플레이",
-            "card": "그래픽 카드: ",
+            "title": "Settings",
+            "graphics": "Graphics",
+            "gameplay": "Gameplay",
+            "card": "Display Adapter: ",
             "gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
-            "gfx_enable_shadows": "그림자 활성화",
-            "gfx_enable_vsync": "수직동기화 활성화",
-            "gfx_enable_fullscreen": "전체화면 (재시작시 적용)",
-            "gfx_msaa": "안티엘리어싱 레벨",
-            "gfx_shadows": "그림자 품질",
-            "gfx_max_lights": "라이트 레벨",
-            "gfx_drawdistance": "가시거리",
-            "gfx_enable_ssao": "앰비언트 어클루젼 활성화",
-            "gfx_use_high_quality": "고품질 활성화",
-            "shadow_0": "끔",
-            "shadow_1": "횃불 만",
-            "shadow_2": "아주 조금",
-            "shadow_3": "조금 더",
-            "shadow_4": "많음",
-            "shadow_5": "아주 많이!",
-            "aa_slider_0": "끔",
-            "aa_slider_1": "조금",
-            "aa_slider_2": "조금 더",
-            "aa_slider_3": "많음",
-            "aa_slider_4": "아주많음!",
-            "sound": "소리",
-            "background_music_volume": "BGM 크기",
-            "effects_volume": "효과음 크기",
-            "system": "시스템",
-            "force_32_bit": "* 강제 32비트 (재시작시 적용)",
+            "gfx_enable_shadows": "Enable Shadows",
+            "gfx_enable_vsync": "Enable Vertical Sync",
+            "gfx_enable_fullscreen": "Fullscreen (Requires Restart)",
+            "gfx_msaa": "Anti-Aliasing Level",
+            "gfx_shadows": "Shadow Detail",
+            "gfx_max_lights": "Maximum Number of Lights",
+            "gfx_drawdistance": "Draw Distance",
+            "gfx_enable_ssao": "Enable Ambient Occlusion",
+            "gfx_use_high_quality": "Enable High Quality Graphics",
+            "shadow_0": "off",
+            "shadow_1": "just a touch",
+            "shadow_2": "a little",
+            "shadow_3": "a little more",
+            "shadow_4": "a lot",
+            "shadow_5": "a whole lot!",
+            "aa_slider_0": "off",
+            "aa_slider_1": "a little",
+            "aa_slider_2": "a little more",
+            "aa_slider_3": "a lot",
+            "aa_slider_4": "a whole lot!",
+            "sound": "Sound",
+            "background_music_volume": "Music Volume",
+            "effects_volume": "Effects Volume",
+            "system": "System",
+            "force_32_bit": "* Force 32-bit (Requires Restart)",
             "force_32_bit_note": "* Force 32-bit only if absolutely necessary. 64-bit is faster and supports larger towns.",
             "enable_lua_jit": "Use Lua JIT (Requires Restart)",
-            "send_anon_data": "익명으로 피드백 보내기",
-            "language_select": "언어(Language)",
+            "send_anon_data": "Send anonymous feedback to help improve Stonehearth!",
+            "language_select": "Language",
             "gameplay_tab": {
-               "title": "게임플레이",
-               "experimental": "실험실",
+               "title": "Gameplay",
+               "experimental": "Experimental",
                "experimental_description": "These settings are still under development and may not be stable! Enable at your own risk!",
                "enable_speed_3": "Enable Game Speed 3 (Requires UI Refresh)",
                "enable_speed_3_note": "Note: Game performance might be slow with larger towns on speed 3. Be warned!",
@@ -1048,97 +1048,97 @@
                "default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
                "show_hearthling_paths": "Show Hearthling paths",
                "show_hearthling_paths_description": "Display the path your hearthlings are following.",
-               "max_citizens": "최대 인구 수"
+               "max_citizens": "Max Citizens"
             }
          },
          "title_screen": {
-            "exit": "나가기",
-            "settings": "설정",
-            "about": "소개",
-            "kingdom_of": "최근 운영한 왕국:",
-            "continue_game": "이어하기",
-            "new_game": "새로운 왕국",
-            "load_game": "불러오기",
-            "quick_start": "빠른 시작",
-            "patch_notes": "변경사항 보기",
+            "exit": "exit",
+            "settings": "settings",
+            "about": "about",
+            "kingdom_of": "The Kingdom of",
+            "continue_game": "Continue",
+            "new_game": "New Game",
+            "load_game": "Load Game",
+            "quick_start": "Quick Start",
+            "patch_notes": "Show Patch Notes",
             "alpha_welcome_dialog": {
-               "title": "스톤하스에 오신 것을 환영합니다!",
-               "message": "주의: 이 게임은 알파버전의 소프트웨어입니다. 아직 많은 부분이 미흡하며 여러가지 버그가 존재할 것입니다.<br><br>당신이 게임을 플레이하면서 생기는 크래시를 자동으로 보내주신다면 많은 도움이 될 것입니다. 동의해 주시겠습니까?",
-               "accept": "네, 자동으로 크래시 리포트를 전송하겠습니다.",
-               "cancel": "아니요"
+               "title": "Welcome to Stonehearth!",
+               "message": "Warning: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us crash reports for your game. Would you like to do this?",
+               "accept": "Yes, send crash reports",
+               "cancel": "Nope"
             }
          },
          "select_game_story": {
-            "title": "시작되는 모험",
-            "story_start": "이 이야기는 ...",
+            "title": "Choose your adventure",
+            "story_start": "This is the story of ...",
             "kingdom_section_start": "... a brave band of settlers from ",
             "select_button": "?",
-            "kingdom_picker_title": "왕국 선택",
+            "kingdom_picker_title": "Select a Kingdom",
             "biome_section_start": "Seeking new lands and adventure, they set off to ",
-            "biome_picker_title": "지형선택",
+            "biome_picker_title": "Select a Biome",
             "game_mode_select_start": ", a location that is sure to be ",
-            "game_mode_picker_title": "난이도 선택",
+            "game_mode_picker_title": "Select a Difficulty",
             "game_modes": {
                "normal": {
-                  "display_name": "일반",
+                  "display_name": "Normal Game",
                   "description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
                   "post_selection_text": "an inspiring place to start anew."
                },
                "peaceful": {
-                  "display_name": "평화로움",
+                  "display_name": "Peaceful Game",
                   "description": "A sandbox-mode, where you're free to build your town without worrying about invaders whatsoever.",
                   "post_selection_text": "a tranquil place to start anew."
                }
             },
-            "begin_button": "시작"
+            "begin_button": "Begin"
          },
          "embark": {
-            "title": "승선 준비",
-            "citizen_info": "원정대 명단",
-            "reroll_citizens": "시민 바꾸기",
-            "shop_title": "여행자의 상점",
-            "shop_gold_label": "황금",
-            "shop_sold": "품절!",
-            "shop_reset_button": "되돌리기",
-            "finished": "승선!",
+            "title": "Prepare to embark",
+            "citizen_info": "Expedition Roster",
+            "reroll_citizens": "Roll new citizens",
+            "shop_title": "Traveller's Store",
+            "shop_gold_label": "Gold",
+            "shop_sold": "SOLD!",
+            "shop_reset_button": "Reset",
+            "finished": "Embark!",
             "no_talisman_confirm_dialog": {
-               "title": "승선",
-               "message": "상점에서 아이템을 구매하지 않고 승선하시겠습니까? 아무 것도 안산다고 해도 여전히 목수의 톱은 기본적으로 제공됩니다.",
-               "accept": "하드모드 플레이",
-               "cancel": "구매하고 올게"
+               "title": "Embark",
+               "message": "Are you sure you want to embark without choosing a tool from the shop? As always, you will still get the starting talisman for your faction.",
+               "accept": "Yes, hard mode.",
+               "cancel": "Wait!"
             }
          }
       },
       "debug": {
          "post_bug": {
-            "title": "버그 정보",
-            "message": "스톤하스 알파에 참여해 주셔서 감사합니다! 버그를 발견한다면",
-            "file_bug_step_1": "http:&frasl;&frasl;discourse.stonehearth.net&frasl;c&frasl;support&frasl;active-bug에 가서",
+            "title": "Filing bugs",
+            "message": "Thanks for participating in the Stonehearth Alpha! Here's how you can file a bug.",
+            "file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
             "file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
-            "file_bug_step_3": "When filing bugs, please include screenshots of the error",
-            "file_bug_step_4": "If you're reporting a crash bug, include your unique user id"
+            "file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
+            "file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
          },
          "error_browser": {
-            "title": "엔진에러",
-            "filename_label": "파일이름",
-            "close_permanently_button": "닫기",
-            "prev_button": "이전",
-            "next_button": "다음",
-            "copy_button": "클립보드에 복사"
+            "title": "Engine Error",
+            "filename_label": "filename",
+            "close_permanently_button": "Close Permanently",
+            "prev_button": "Prev",
+            "next_button": "Next",
+            "copy_button": "Copy to Clipboard"
          },
          "error_dialog_js": {
-            "title": "UI 에러",
-            "reset_hint": "F5키를 이용해서 UI를 리셋시킬 수 있습니다.",
-            "copy_button": "클립보드에 복사"
+            "title": "UI Error",
+            "reset_hint": "Press F5 to Reset the UI.",
+            "copy_button": "Copy to Clipboard"
          }
       },
       "data": {
          "tooltips": {
             "stamina": {
-               "display_name": "스태미나",
-               "description": "How long this hearthling can work before needing rest.",
+               "display_name": "Stamina",
+               "description": "This hearthling's physical endurance.",
                "bullet_points": {
-                  "000": "Determines sleep duration"
+                  "000": "Each point increases max health by 2"
                }
             },
             "inventiveness": {
@@ -1162,7 +1162,7 @@
                }
             },
             "food": {
-               "display_name": "음식",
+               "display_name": "Food",
                "description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
                "town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
             },
@@ -1174,7 +1174,7 @@
                }
             },
             "willpower": {
-               "display_name": "야생화",
+               "display_name": "Willpower",
                "description": "How likely this hearthling is to resist enemy charms.",
                "bullet_points": {
                   "000": "Determines health regeneration"
@@ -1182,7 +1182,7 @@
             },
             "net_worth": {
                "display_name": "Net Worth",
-               "description": "A score based on the value of everything in the town's inventory."
+               "description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
             },
             "courage": {
                "display_name": "Courage",
@@ -1237,7 +1237,7 @@
                "town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
             },
             "militia": {
-               "display_name": "민병대",
+               "display_name": "Militia",
                "description": "In Town Alert Mode, militia members will hold their ground against enemies instead of running to a safety banner. In addition, they receive an extra boost of Courage and Muscle."
             },
             "inventory": {
@@ -1254,26 +1254,26 @@
             }
          },
          "constants": {
-            "food_meat_raw_name": "생고기",
-            "food_veggie_raw_name": "야채",
-            "stone_resource_name": "돌",
-            "pelt_resource_name": "모피",
-            "cloth_resource_name": "피륙",
-            "wood_resource_name": "원목",
-            "clay_resource_name": "점토 덩어리",
-            "clay_brick_resource_name": "벽돌",
-            "thread_resource_name": "실",
-            "leather_resource_name": "가죽",
-            "fiber_resource_name": "섬유 묶음",
-            "ingot_resource_name": "주괴",
-            "herb_resource_name": "허브"
+            "food_meat_raw_name": "Raw Meat",
+            "food_veggie_raw_name": "Raw Vegetable",
+            "stone_resource_name": "Stone",
+            "pelt_resource_name": "Fur Pelt",
+            "cloth_resource_name": "Bolt of Cloth",
+            "wood_resource_name": "Wood Log",
+            "clay_resource_name": "Mound of Clay",
+            "clay_brick_resource_name": "Clay Bricks",
+            "thread_resource_name": "Thread",
+            "leather_resource_name": "Bolt of Leather",
+            "fiber_resource_name": "Bundle of Fiber",
+            "ingot_resource_name": "Metal Ingot",
+            "herb_resource_name": "Herb"
          }
       }
    },
    "data": {
       "population": {
          "ascendancy": {
-            "display_name": "어센던시",
+            "display_name": "The Ascendancy",
             "quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
             "description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.",
             "post_selection_description": ", a prosperous and industrious kingdom."
@@ -1281,24 +1281,24 @@
       },
       "biome": {
          "temperate": {
-            "display_name": "숲",
+            "display_name": "Temperate",
             "description": "Forests, rivers and mountains. Default home of the Ascendancy.",
             "random_location_names": {
-               "000": "다크모어 숲"
+               "000": "Darkmoor Forest"
             }
          },
          "arctic": {
-            "display_name": "북극",
+            "display_name": "Arctic",
             "description": "Snowy, with tall mountains and large water bodies. Default home of the Northern Alliance.",
             "random_location_names": {
-               "000": "발키리 툰드라"
+               "000": "Valkyrie Tundra"
             }
          },
          "desert": {
-            "display_name": "사막",
+            "display_name": "Desert",
             "description": "Dry and sandy, with chunky hills and sparse vegetation. Default home of Rayya's Children.",
             "random_location_names": {
-               "000": "팔먼 사막"
+               "000": "The Desert of Pal'Mum"
             }
          }
       },
@@ -1306,28 +1306,28 @@
          "campaigns": {
             "encounters": {
                "daily_report_encounter": {
-                  "title": "여행자가 당신의 마을에 접근하고 있습니다.",
-                  "update_title": "오늘의 이야기",
-                  "sub_title": "이민 보고서",
-                  "food_label": "음식",
-                  "morale_label": "의욕",
-                  "net_worth_label": "순 자산",
-                  "conclusion_positive": "정착민이 당신의 마을에 정착하고 싶어 합니다!",
-                  "conclusion_negative": "도로가 비어있습니다. 내일 되겠죠 아마!",
-                  "success_title": "[name(i18n_data.citizen)]가 [str(i18n_data.town_name)]마을에 정착했습니다!",
+                  "title": "A traveller approaches your town.",
+                  "update_title": "Daily Update",
+                  "sub_title": "Immigration Report",
+                  "food_label": "Food ",
+                  "morale_label": "Morale ",
+                  "net_worth_label": "Net Worth ",
+                  "conclusion_positive": "A new settler would like to join your town!",
+                  "conclusion_negative": "The road remains empty. Maybe tomorrow!",
+                  "success_title": "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
                   "messages": {
-                     "000": "나는 당신의 도시에 대해 많이 들었습니다!",
-                     "001": "나는 당신의 도시에 들어가고 싶습니다.",
+                     "000": "I've heard a lot about your town!",
+                     "001": "I'd like to join your town.",
                      "002": "You guys really look like you could use a hand!",
-                     "003": "우와! 마을이네! 나를 도와줘!"
+                     "003": "Wow! What a town! Let me help out!"
                   },
                   "outcome_statement": " A [str(i18n_data.job)] would like to join [str(i18n_data.town_name)]!"
                }
             },
             "trader": {
                "simple_caravan_encounter": {
-                  "message": "안녕하십니까? 언제나 [str(i18n_data.town_name)]마을은 언제 봐도 아름답군요! 저희가 이 아름다운 마을에 한가지 제안을 할까 합니다. [str(i18n_data.your_item)]  [str(i18n_data.your_quantity)]개를 [str(i18n_data.my_item)] [str(i18n_data.my_quantity)] 개와 교환하지 않으시겠습니까?",
-                  "title": "캐러밴이 접근 중!"
+                  "message": "Hello [str(i18n_data.town_name)]! I come bearing goods for trade. Would you like to give me [str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s) in exchange for [str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)?",
+                  "title": "A caravan approaches!"
                },
                "starting_food_donation": {
                   "donation_dialog_info": {
@@ -1348,7 +1348,7 @@
                   }
                },
                "returning_trader_encounter": {
-                  "title": "상인이 접근 중",
+                  "title": "A trader approaches your town.",
                   "trade_details": "Hello [str(i18n_data.town_name)]! I'm just passing through, but I'd be willing to make a trade or two, if you're interested. If you make me [str(i18n_data.want_number)] [str(i18n_data.want_item)], I'll be back in [str(i18n_data.num_days)] days and might be able to get you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] in exchange. Sound good?",
                   "waiting_title": "The trader will be back in [str(i18n_data.hour_counter)] hours!",
                   "waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] hours to give you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] if you have [str(i18n_data.want_number)] [str(i18n_data.want_item)] ready for him!",
@@ -1386,8 +1386,8 @@
                   "dialog_tree_info": {
                      "dialog_nodes": {
                         "erdene_appears": {
-                           "choice_000": "절대 안됩니다!",
-                           "choice_001": "으음...네",
+                           "choice_000": "No way!",
+                           "choice_001": "Well... yes.",
                            "bulletin_message": {
                               "000": "Are you afraid, valiant town? Ogo so-called-chief will be here soon. For you."
                            },
@@ -1395,8 +1395,8 @@
                            "dialog_title": "???"
                         },
                         "erdenes_help": {
-                           "choice_000": "에...그럴까요?",
-                           "choice_001": "당황스럽군요. 죄송합니다.",
+                           "choice_000": "Uh... okay?",
+                           "choice_001": "Confused. Sorry.",
                            "bulletin_message": {
                               "000": "To borrow strength to rise means to fall when strength fails. Ogo borrows his power not from his so-called-sayer, but from the babe he stole."
                            },
@@ -1404,8 +1404,8 @@
                            "dialog_title": "???"
                         },
                         "erdene_description": {
-                           "choice_000": "좋습니다!",
-                           "choice_001": "재수없는 소리",
+                           "choice_000": "Cool!",
+                           "choice_001": "Sounds ominous.",
                            "bulletin_message": {
                               "000": "Me? I am the one who watches. You. Him. For the star. For fate.",
                               "001": "I? I am of the Red Kiln. We would have been your saviours, but your Cid parlayed hard in your stead. So now we watch. And wait for the day when your star rises.",
@@ -1425,8 +1425,8 @@
                            "dialog_title": "???"
                         },
                         "flute_description": {
-                           "choice_000": "좋네요!",
-                           "choice_001": "괜찮습니다",
+                           "choice_000": "Sounds good!",
+                           "choice_001": "No. Thanks.",
                            "bulletin_message": {
                               "000": "Upon this paper, you shall find the lullabye to sooth the Mountain's soul. Find a stolen flute. Bid your wood-worker pitch it to this melody. Grant it to your bravest sheep-singer, set him at Ogo's great mammoth, and watch self-importance meet it's just reward."
                            },
@@ -1447,8 +1447,8 @@
                   "dialog_tree_info": {
                      "dialog_nodes": {
                         "soothsayer_description": {
-                           "choice_000": "절대 안됩니다!",
-                           "choice_001": "흐음..",
+                           "choice_000": "No way!",
+                           "choice_001": "Huh.",
                            "bulletin_message": {
                               "000": "Soothsayer magic! Speak with old ones! Tell future! He see... he see Red Kiln Falling, new star rising. That star is Ogo. This time, we pick winning side!",
                               "001": "Soothsayer old, old snake. Speaks out with bones and scales. Sees future! Sees cycle ending, ending forever. Not sure what he mean, but good for Ogo!",
@@ -1757,7 +1757,7 @@
                         },
                         "collection_progress": {
                            "bulletin_message": {
-                              "000": "Me back soon for stuff. Better have it, or no good for you, little 허스링."
+                              "000": "Me back soon for stuff. Better have it, or no good for you, little hearthling."
                            },
                            "bulletin_title": "Satisfy the Goblins",
                            "dialog_title": "[name(i18n_data.boss)]"
@@ -1986,7 +1986,7 @@
                },
                "zombie_chest_camp": {
                   "boss": {
-                     "display_name": "거인 좀비",
+                     "display_name": "Giant Zombie",
                      "description": "Blaarhgh.. don't touch Master's treasure!!"
                   }
                },
@@ -2002,7 +2002,7 @@
                },
                "giant_wolf_raid_4": {
                   "wolf": {
-                     "display_name": "거인 늑대",
+                     "display_name": "Giant Wolf",
                      "description": "Terrifyingly large.. and toothy"
                   }
                },
@@ -2103,9 +2103,9 @@
          }
       },
       "buffs": {
-         "buff_duration_days": "[str(days)]일",
-         "buff_duration_hours": "[str(hours)]시",
-         "buff_duration_minutes": "[str(minutes)]분",
+         "buff_duration_days": "[str(days)]d",
+         "buff_duration_hours": "[str(hours)]h",
+         "buff_duration_minutes": "[str(minutes)]m",
          "carrying": {
             "carrying_buff": {
                "display_name": "So Heavy!",
@@ -2192,13 +2192,13 @@
          "stamina_tonic": {
             "stamina_tonic_buff": {
                "display_name": "Stamina Tonic",
-               "description": "Slightly more healthy"
+               "description": "Health increased greatly."
             }
          },
          "strength_tonic": {
             "strength_tonic_buff": {
                "display_name": "Strength Tonic",
-               "description": "Slightly more buff"
+               "description": "Muscle increased greatly for more combat damage."
             }
          },
          "severely_injured": {
@@ -2312,15 +2312,15 @@
             }
          },
          "promote_to_job": {
-            "display_name": "직업 변경",
-            "description": "허스링에게 새로운 직업을 줍니다."
+            "display_name": "Change Jobs",
+            "description": "Give this hearthling a new job."
          },
          "raze_crop": {
             "display_name": "Clear Ground",
             "description": "Clear or harvest the contents of this plot."
          },
          "release_pet": {
-            "display_name": "펫 방생",
+            "display_name": "Release Pet",
             "description": "Tell this pet you don't want it anymore."
          },
          "remove_ladder": {
@@ -2328,12 +2328,12 @@
             "description": "Remove this ladder."
          },
          "show_workshop": {
-            "display_name": "작업대 열기",
+            "display_name": "Show Workshop",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },
          "show_workshop_from_crafter": {
-            "display_name": "작업대 열기",
+            "display_name": "Show Workshop",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },
@@ -2368,7 +2368,7 @@
             "description": "Plant this tree in some dirt."
          },
          "use_consumable": {
-            "display_name": "사용",
+            "display_name": "Use",
             "description": "Use this consumable item to buff every hearthling in town. This will destroy the item."
          },
          "edit_party": {
@@ -3236,7 +3236,7 @@
       },
       "prototypes": {
          "party": {
-            "display_name": "[str(self.unit_info.custom_name)]번째 파티",
+            "display_name": "Party No.[str(self.unit_info.custom_name)]",
             "description": "Organizes troops into groups for combat"
          }
       },
@@ -3315,7 +3315,7 @@
          },
          "studded_leather_helmet": {
             "display_name": "Studded Leather Helmet",
-            "description": "당신의 머리를 보호합니다"
+            "description": "Protects your head"
          },
          "wooden_shield": {
             "display_name": "Rough Wooden Buckler",
@@ -3327,9 +3327,9 @@
          },
          "bronze_circlet": {
             "display_name": "Bronze Circlet",
-            "description": "당신의 머리를 보호합니다",
+            "description": "Protection for your head",
             "bronze_circlet_iconic": {
-               "display_name": "Leather Skull Cap",
+               "display_name": "Bronze Circlet",
                "description": "Protection for your head"
             }
          },
@@ -3343,26 +3343,26 @@
          },
          "iron_coif": {
             "display_name": "Iron Coif",
-            "description": "당신의 머리를 보호합니다",
+            "description": "Protection for your head",
             "iron_coif_iconic": {
                "display_name": "Iron Coif",
-               "description": "당신의 머리를 보호합니다"
+               "description": "Protection for your head"
             }
          },
          "leather_helmet": {
             "display_name": "Leather Skull Cap",
-            "description": "당신의 머리를 보호합니다",
+            "description": "Protection for your head",
             "leather_helmet_iconic": {
                "display_name": "Leather Skull Cap",
-               "description": "당신의 머리를 보호합니다"
+               "description": "Protection for your head"
             }
          },
          "steel_helmet": {
             "display_name": "Plate Helm",
-            "description": "당신의 머리를 보호합니다",
+            "description": "Protection for your head",
             "steel_helmet_iconic": {
                "display_name": "Steel Helmet",
-               "description": "당신의 머리를 보호합니다"
+               "description": "Protection for your head"
             }
          }
       },
@@ -3683,7 +3683,7 @@
       "crops": {
          "brightbell_crop": {
             "display_name": "Brightbell Flower",
-            "description": "회복에 사용되는 허브",
+            "description": "Can be used as a healing herb",
             "growth_stage": {
                "001": {
                   "name": "Brightbell Sprout",
@@ -3704,53 +3704,53 @@
             }
          },
          "carrot_crop": {
-            "display_name": "당근",
+            "display_name": "Carrot",
             "description": "Fast-growing, but pretty bland on its own.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 당근",
-                  "description": "맛있어!"
+                  "name": "Ripe Carrot",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "어린 당근",
-                  "description": "작고. 써."
+                  "name": "Baby Carrot",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 당근",
+                  "name": "Carrot Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "당근 모종",
+                  "name": "Carrot Seedling",
                   "description": "A unrealized carrot."
                },
                "011": {
-                  "name": "썩은 당근",
+                  "name": "Rotten Carrot",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "corn_crop": {
-            "display_name": "옥수수",
+            "display_name": "Corn",
             "description": "Slow-growing, but super nutritious crop.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 옥수수",
-                  "description": "먹어줘! 날 먹어줘!"
+                  "name": "Ripe Corn",
+                  "description": "Eat me! Eat Me!"
                },
                "002": {
-                  "name": "초록빛 옥수수",
+                  "name": "Green Corn",
                   "description": "Extremely unsatisfying to eat."
                },
                "001": {
-                  "name": "싹이 튼 옥수수",
+                  "name": "Corn Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "옥수수 모종",
+                  "name": "Corn Seedling",
                   "description": "Slow-mo, high-stakes gambling."
                },
                "011": {
-                  "name": "옥수수 껍질",
+                  "name": "Corn Husk",
                   "description": "It's dead."
                }
             }
@@ -3778,53 +3778,53 @@
             }
          },
          "gingercap_crop": {
-            "display_name": "순무",
+            "display_name": "Turnip",
             "description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 순무",
-                  "description": "맛있어!"
+                  "name": "Ripe Turnip",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "어린 순무",
-                  "description": "작고 써."
+                  "name": "Baby Turnip",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 순무",
+                  "name": "Turnip Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "순무 모종",
+                  "name": "Turnip Seedling",
                   "description": "A unrealized turnip."
                },
                "011": {
-                  "name": "썩은 순무",
+                  "name": "Rotten Turnip",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "pumpkin_crop": {
-            "display_name": "호박",
+            "display_name": "Pumpkin",
             "description": "Big, round, and fast-growing, but tasty it is not.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 호박",
-                  "description": "맛있어!"
+                  "name": "Ripe pumpkin",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "어린 호박",
+                  "name": "Baby pumpkin",
                   "description": "Not edible yet!"
                },
                "001": {
-                  "name": "싹이 튼 호박",
+                  "name": "Pumpkin Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "호박 모종",
+                  "name": "Pumpkin Seedling",
                   "description": "A unrealized pumpkin."
                },
                "011": {
-                  "name": "썩은 호박",
+                  "name": "Rotten pumpkin",
                   "description": "Moldy and disgusting."
                }
             }
@@ -3920,67 +3920,67 @@
             }
          },
          "turnip_crop": {
-            "display_name": "순무",
+            "display_name": "Turnip",
             "description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 순무",
-                  "description": "맛있어!"
+                  "name": "Ripe Turnip",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "어린 순무",
-                  "description": "작고. 써."
+                  "name": "Baby Turnip",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 순무",
+                  "name": "Turnip Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "순무 모종",
+                  "name": "Turnip Seedling",
                   "description": "A unrealized turnip."
                },
                "011": {
-                  "name": "썩은 순무",
+                  "name": "Rotten Turnip",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "wheat_crop": {
-            "display_name": "밀",
+            "display_name": "Wheat",
             "description": "Amber wave of grain.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 밀",
-                  "description": "수확할 준비가 되었어!"
+                  "name": "Ripe wheat",
+                  "description": "Ready for harvest!"
                },
                "002": {
                   "name": "Immature wheat",
                   "description": "Not ready for harvest"
                },
                "001": {
-                  "name": "싹이 튼 밀",
+                  "name": "Wheat Sprout",
                   "description": "Not ready for harvest"
                },
                "000": {
-                  "name": "밀 모종",
+                  "name": "Wheat Seedling",
                   "description": "Not ready for harvest"
                },
                "011": {
-                  "name": "밀 껍질",
+                  "name": "Wheat Husk",
                   "description": "It's dead."
                }
             }
          },
          "oak_tree_crop": {
-            "display_name": "참나무 묘목",
+            "display_name": "Oak Tree Sapling",
             "description": "Out of trees? Get ready to participate in reforestation.",
             "growth_stage": {
                "001": {
-                  "name": "참나무 모종",
+                  "name": "Oak Tree Seedling",
                   "description": "It's just getting started."
                },
                "003": {
-                  "name": "참나무 묘목",
+                  "name": "Oak Tree Sapling",
                   "description": "Ready to be transferred to a bigger plot."
                },
                "000": {
@@ -3988,7 +3988,7 @@
                   "description": "Even a mighty tree has humble beginnings."
                },
                "002": {
-                  "name": "싹이 튼 참나무",
+                  "name": "Oak Tree Sprout",
                   "description": "Reach for the sun, little oakling."
                }
             }
@@ -4356,11 +4356,11 @@
                "description": "Heavenly nutritious."
             },
             "corn_basket": {
-               "display_name": "옥수수가 담긴 바구니",
+               "display_name": "Basket of Corn",
                "description": "Sweet and crunchy."
             },
             "corn_serving": {
-               "display_name": "옥수수대",
+               "display_name": "Corn Cob",
                "description": "Crunch and spray."
             }
          },
@@ -4388,7 +4388,7 @@
          },
          "pumpkin": {
             "pumpkin_basket": {
-               "display_name": "호박이 담긴 바구니",
+               "display_name": "Pumpkin Basket",
                "description": "Ready for eating"
             },
             "pumpkin_serving": {
@@ -4401,7 +4401,7 @@
          },
          "veggie_stew": {
             "veggie_stew": {
-               "display_name": "야채 스튜",
+               "display_name": "Vegetable Stew",
                "description": "Warm and delicious"
             },
             "veggie_stew_serving": {
@@ -4414,12 +4414,12 @@
             "description": "Ready for use"
          },
          "egg": {
-            "display_name": "달걀",
+            "display_name": "An Egg",
             "description": "An eggcellent ingredient for cooking."
          },
          "corn_bread": {
             "corn_bread": {
-               "display_name": "옥수수 빵",
+               "display_name": "Corn Bread",
                "description": "Toasty and golden brown."
             },
             "corn_bread_serving": {
@@ -4427,7 +4427,7 @@
             }
          },
          "poyo_meat": {
-            "display_name": "생 닭고기",
+            "display_name": "Raw Poyo Meat",
             "description": "I hear it takes like poyo."
          },
          "poyo_pot_pie": {
@@ -4442,7 +4442,7 @@
          },
          "omelette": {
             "omelette": {
-               "display_name": "오믈렛",
+               "display_name": "Omelette",
                "description": "Delicious egg wrapped meat and veggies"
             },
             "omelette_serving": {
@@ -4452,7 +4452,7 @@
          },
          "roast_poyo": {
             "roast_poyo": {
-               "display_name": "통닭구이",
+               "display_name": "Roast Poyo",
                "description": "Nice and juicy."
             },
             "roast_poyo_serving": {
@@ -4461,7 +4461,7 @@
          },
          "fried_eggs": {
             "fried_eggs": {
-               "display_name": "달걀 프라이",
+               "display_name": "Fried Eggs",
                "description": "Fried and delicious"
             },
             "fried_eggs_serving": {
@@ -4469,25 +4469,25 @@
             }
          },
          "sheep_feed": {
-            "display_name": "양 사료",
+            "display_name": "Sheep Feed",
             "description": "Give to sheep for a supplement to grazing.",
             "sheep_feed_ground": {
-               "display_name": "양 사료",
+               "display_name": "Sheep Feed",
                "description": "Food for sheep"
             }
          },
          "poyo_feed": {
             "poyo_feed": {
-               "display_name": "닭 사료",
+               "display_name": "Poyo Feed",
                "description": "For feeding poyos."
             },
             "poyo_feed_ground": {
-               "display_name": "닭 사료",
+               "display_name": "Poyo Feed",
                "description": "Poyos love to eat this stuff."
             }
          },
          "rabbit_feed": {
-            "display_name": "토끼 사료",
+            "display_name": "Rabbit Feed",
             "description": "For rabbits",
             "rabbit_feed_ground": {
                "display_name": "Rabbit Feed",
@@ -4525,7 +4525,7 @@
             }
          },
          "corn_meal": {
-            "display_name": "옥수수 가루",
+            "display_name": "Corn Meal",
             "description": "Corn ground into a fine powder"
          },
          "flat_bread": {
@@ -4556,7 +4556,7 @@
             }
          },
          "rotten_basket": {
-            "display_name": "썩은 음식이 담긴 바구니",
+            "display_name": "Rotten Food Basket",
             "description": "So rotten that it's lost all form and function."
          },
          "rotten_egg": {
@@ -5673,7 +5673,7 @@
       },
       "blacksmith": {
          "blacksmith_description": {
-            "display_name": "대장장이",
+            "display_name": "Blacksmith",
             "description": "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
             "requirements": "Blacksmith's Hammer, crafted by the Mason",
             "level_6_data": {
@@ -5874,7 +5874,7 @@
       },
       "carpenter": {
          "carpenter_description": {
-            "display_name": "목수",
+            "display_name": "Carpenter",
             "description": "The carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
             "requirements": "Carpenter's saw, crafted by the Blacksmith.",
             "level_6_data": {
@@ -6140,8 +6140,8 @@
                "recipe_name": "Wooden Safety Standard"
             },
             "wooden_tunnel_door_recipe": {
-               "recipe_name": "Use to designate a safety point",
-               "description": "Wooden Tunnel Door"
+               "recipe_name": "Wooden Tunnel Door",
+               "description": "Useful for blocking off tunnels"
             },
             "wooden_sign_cook_recipe": {
                "description": "A sign with the mark of the Cook.",
@@ -6176,11 +6176,11 @@
       },
       "cook": {
          "cook_description": {
-            "display_name": "요리사",
+            "display_name": "Cook",
             "description": "The cook makes delicious, hearty meals from base vegetables and meats.",
             "requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
             "workshop": {
-               "name": "석재 가마솥",
+               "name": "Stone Cauldron",
                "long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
             },
             "level_6_data": {
@@ -6223,7 +6223,7 @@
          },
          "cook_workbench": {
             "cook_workbench_ghost": {
-               "display_name": "석재 가마솥",
+               "display_name": "Stone Cauldron",
                "description": "Used by the Cook for delicious recipes."
             }
          },
@@ -6260,50 +6260,50 @@
             },
             "omelette_recipe": {
                "description": "Veggies and meat wrapped in egg.",
-               "recipe_name": "오믈렛",
+               "recipe_name": "Omelette",
                "flavor": "Part of a hearty breakfast"
             },
             "roast_poyo_recipe": {
-               "description": "천천히 구워낸 닭고기",
-               "recipe_name": "통닭구이",
+               "description": "Slow roasted poyo meat",
+               "recipe_name": "Roast Poyo",
                "flavor": "Put 'nother poyo on the barby."
             },
             "fried_eggs_recipe": {
                "description": "Eggs fried to order.",
-               "recipe_name": "달갈 프라이",
+               "recipe_name": "Fried Eggs",
                "flavor": "Do you like yours sunnyside up?"
             },
-            "animal_feed_name": "동물 사료",
+            "animal_feed_name": "Animal Feed",
             "sheep_feed_recipe": {
                "description": "A supplement for a healthy sheep diet",
-               "recipe_name": "양 사료"
+               "recipe_name": "Sheep Feed"
             },
             "poyo_feed_recipe": {
                "description": "For feeding one's poyos",
-               "recipe_name": "닭 사료",
-               "flavor": "꼬꼬댁 꼬꼬댁!"
+               "recipe_name": "Poyo Feed",
+               "flavor": "Cluck cluck!"
             },
             "rabbit_feed_recipe": {
                "description": "Food for rabbits",
-               "recipe_name": "토끼 사료"
+               "recipe_name": "Rabbit Feed"
             },
             "workbenches_name": "Workbenches",
             "cook_workbench_recipe": {
                "description": "Use to cook nutritions soups and stews.",
-               "recipe_name": "석재 가마솥",
+               "recipe_name": "Stone Cauldron",
                "flavor": "Stone, to keep the food hot for a long time."
             },
             "cook_mill_recipe": {
                "description": "For grinding grains into flour",
-               "recipe_name": "맷돌"
+               "recipe_name": "Stone Mill Grinder"
             },
             "cook_oven_recipe": {
                "description": "Great for roasting",
-               "recipe_name": "석재 오븐"
+               "recipe_name": "Stone Oven"
             },
             "corn_meal_recipe": {
                "description": "Corn ground into a fine powder",
-               "recipe_name": "옥수수 가루"
+               "recipe_name": "Corn Meal"
             },
             "decoration_name": "Decorations",
             "roast_mutton_recipe": {
@@ -6313,13 +6313,13 @@
          },
          "cook_mill": {
             "cook_mill_ghost": {
-               "display_name": "맷돌",
+               "display_name": "Stone Mill Grinder",
                "description": "Used by the cook to grind grains into flour."
             }
          },
          "cook_oven": {
             "cook_oven_ghost": {
-               "display_name": "석재 오븐",
+               "display_name": "Stone Oven",
                "description": "Great for roasting"
             }
          }
@@ -6333,7 +6333,7 @@
       },
       "farmer": {
          "farmer_description": {
-            "display_name": "농부",
+            "display_name": "Farmer",
             "description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
             "requirements": "Farmer's Hoe, crafted by the Carpenter.",
             "level_6_data": {
@@ -6376,13 +6376,13 @@
             "description": "Standard dress for all farmers"
          },
          "field": {
-            "display_name": "농장 터",
+            "display_name": "Farm plot",
             "description": "For growing crops"
          }
       },
       "footman": {
          "footman_description": {
-            "display_name": "전사",
+            "display_name": "Footman",
             "description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
             "requirements": "Wooden Practice Sword, crafted by the Carpenter.",
             "level_4_data": {
@@ -6432,7 +6432,7 @@
       },
       "mason": {
          "mason_description": {
-            "display_name": "석공",
+            "display_name": "Mason",
             "description": "The Mason crafts building materials and decorative items from stone.",
             "requirements": "A Chisel, crafted by the Carpenter.",
             "workshop": {
@@ -6618,7 +6618,7 @@
             },
             "level_3_data": {
                "perk_000_name": "Artistic Inspiration",
-               "perk_000_description": "When inspiration strikes, the potter may embellish his&frasl;her works in unexpected ways."
+               "perk_000_description": "When inspiration strikes, the potter may embellish his/her works in unexpected ways."
             },
             "level_6_data": {
                "title": "Master Potter",
@@ -6823,7 +6823,7 @@
       },
       "shepherd": {
          "shepherd_description": {
-            "display_name": "양치기",
+            "display_name": "Shepherd",
             "description": "Domesticates wild animals and harvests them for food and materials.",
             "requirements": "A level 2 Trapper and a Shepherd's Crook, crafted by the Carpenter.",
             "level_4_data": {
@@ -6869,7 +6869,7 @@
       },
       "trapper": {
          "trapper_description": {
-            "display_name": "사냥꾼",
+            "display_name": "Trapper",
             "description": "The Trapper's snares capture and (ahem) &quot;harvest&quot; small critters for a reliable source of food and supplies.",
             "requirements": "Trapper's Knife, forged by the Blacksmith",
             "level_1_data": {
@@ -6882,7 +6882,7 @@
                "perk_000_description": "Long practice helps the trapper salvage more from each animal."
             },
             "level_2_data": {
-               "perk_000_name": "펫 길들이기",
+               "perk_000_name": "Charm Pet",
                "perk_001_name": "Job Opportunities",
                "perk_000_description": "The trapper will occasionally choose to turn a particulary fine animal into a pet!",
                "perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
@@ -6896,20 +6896,20 @@
                "perk_000_description": "Traps now lure in and hold larger prey."
             },
             "level_4_data": {
-               "perk_000_name": "가방 크기 +8",
+               "perk_000_name": "Backpack Size +8",
                "perk_000_description": "The trapper has become more efficient at packing in the loot."
             }
          },
          "snare_trap": {
-            "display_name": "덫",
+            "display_name": "Snare Trap",
             "description": "Safely immobilizes its prey",
             "commands": {
                "harvest_trapped_beast": {
-                  "display_name": "도축",
+                  "display_name": "Harvest Beast",
                   "description": "Slay the trapped beast and harvest him for materials!"
                },
                "tame_trapped_beast": {
-                  "display_name": "길들이기",
+                  "display_name": "Tame Beast",
                   "description": "Make friends! Befriend the trapped beast and make it your pet."
                }
             }
@@ -6921,22 +6921,22 @@
             }
          },
          "trapper_knife": {
-            "display_name": "사냥꾼의 단검",
-            "description": "사냥꾼의 단검입니다.",
+            "display_name": "Trapper's Knife",
+            "description": "A trapper's knife",
             "trapper_knife_iconic": {
-               "display_name": "사냥꾼의 단검",
-               "description": "사냥꾼들이 사용하는 단검"
+               "display_name": "Trapper's Knife",
+               "description": "Basic trapper's knife."
             },
             "trapper_knife_talisman": {
-               "display_name": "사냥꾼의 단검",
+               "display_name": "Trapper's Knife",
                "description": "Required to promote a hearthling into a Trapper."
             }
          },
          "trapper_outfit": {
-            "display_name": "사냥꾼 유니폼"
+            "display_name": "Trapper Oufit"
          },
          "trapping_grounds": {
-            "display_name": "사냥꾼 범위",
+            "display_name": "Trapping Grounds",
             "description": "Trappers catch critters for food and resources in this zone."
          }
       },
@@ -6955,11 +6955,11 @@
       },
       "weaver": {
          "weaver_description": {
-            "display_name": "방직공",
+            "display_name": "Weaver",
             "description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
             "requirements": "Weaver's Spindle, crafted by the Carpenter.",
             "level_6_data": {
-               "title": "장인 방직공",
+               "title": "Master Weaver",
                "perk_000_name": "10,000 Hours (not implemented)",
                "perk_000_description": "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
             },
@@ -6968,15 +6968,15 @@
                "perk_000_description": "The weaver is now skillful enough to use materials created by other crafters."
             },
             "level_4_data": {
-               "perk_000_name": "독창성 향상",
+               "perk_000_name": "Ingenuity Enhancements (not implemented)",
                "perk_000_description": "The weaver adds new levels of functionality to classic recipes."
             },
             "level_1_data": {
-               "perk_000_name": "기본 카탈로그",
+               "perk_000_name": "Standard Catalog",
                "perk_000_description": "The weaver can now make basic hangings and decor."
             },
             "level_3_data": {
-               "perk_000_name": "예술적 영감",
+               "perk_000_name": "Artistic Inspiration",
                "perk_000_description": "When inspiration strikes, the weaver may embellish his works in unexpected ways."
             }
          },
@@ -7093,45 +7093,45 @@
             }
          },
          "weaver_outfit": {
-            "display_name": "방직공 유니폼",
+            "display_name": "Weaver Outfit",
             "description": "Uniform for all weavers"
          },
          "weaver_spindle": {
-            "display_name": "스핀들",
+            "display_name": "The Spindle",
             "description": "For spinning fiber into thread",
             "weaver_spindle_iconic": {
                "display_name": "The Spindle",
                "description": "For spinning fiber into thread"
             },
             "weaver_spindle_talisman": {
-               "display_name": "스핀들",
+               "display_name": "Weaver's Spindle",
                "description": "Required to promote a hearthling into a Weaver"
             }
          },
          "weaver_spinning_wheel": {
             "weaver_spinning_wheel_ghost": {
-               "display_name": "물레",
+               "display_name": "Spinning Wheel",
                "description": "Used to spin fiber into thread."
             }
          },
          "weaver_workbench": {
             "weaver_workbench_ghost": {
-               "display_name": "방직공의 작업소",
+               "display_name": "Weaver Workbench",
                "description": "Used by the Weaver for crafting."
             }
          }
       },
       "worker": {
          "worker_description": {
-            "display_name": "일꾼",
+            "display_name": "Worker",
             "description": "Workers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
             "requirements": "None, just hard work and guts.",
             "level_0_data": {
-               "title": "일꾼"
+               "title": "Worker"
             }
          },
          "winter_worker_outfit": {
-            "display_name": "일꾼 유니폼 동복",
+            "display_name": "Winter Worker Outfit",
             "description": "A heavy wool coat, for cold winter nights",
             "winter_worker_outfit_iconic": {
                "display_name": "Winter Worker Outfit",
@@ -7139,11 +7139,11 @@
             }
          },
          "worker_outfit": {
-            "display_name": "일꾼 유니폼",
+            "display_name": "Worker Outfit",
             "description": "Uniform for all workers"
          },
          "worker_outfit_2": {
-            "display_name": "향상된 일꾼 유니폼",
+            "display_name": "Upgraded Worker Outfit",
             "description": "Reinforced construction improves worker efficiency!",
             "worker_outfit_2_iconic": {
                "display_name": "Upgraded Worker Outfit",
@@ -7305,7 +7305,7 @@
          "job": {
             "starting_level_title": "Apprentice [str(self.stonehearth:job.curr_job_name)]",
             "default_level_title": "Level [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
-            "default_level_announcement": "[name(i18n_data.entity)]가 [str(i18n_data.job_name)]레벨 [str(i18n_data.level_number)]를 달성했습니다!",
+            "default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
             "level_up_perk_description": "Max Health +10",
             "attribute_up_desc": "All attributes increased!"
          }
@@ -7314,10 +7314,10 @@
          "food_decay": {
             "food_decay": {
                "decay_1": {
-                  "description": "썩기 시작했습니다. 빨리 먹어버리세요."
+                  "description": "Starting to Rot. Better eat it fast."
                },
                "decay_2": {
-                  "description": "썩음."
+                  "description": "Rotten. Ew."
                }
             },
             "egg": {
@@ -7327,7 +7327,7 @@
             }
          },
          "jerky": {
-            "display_name": "육포",
+            "display_name": "Jerky",
             "description": "Stringy, but nutritious!"
          }
       },

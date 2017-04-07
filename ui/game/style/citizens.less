@@ -1,0 +1,257 @@
+.citizensManager {
+   position: relative;
+   margin: auto;
+
+   .window {
+      position: relative;
+      top: 30px;
+      width: 1280px;
+      height: 830px;
+      max-height: 900px;
+	  
+	  .title {
+		font-size: 30px;
+	  }
+   }
+
+   .list {
+      height: 450px;
+   }
+
+   .tabPage {
+      display: none;
+   }
+
+   .workOrderPanel {
+      margin-top: 25px;
+      h2 {
+         font-size: 28px;
+      }
+   }
+
+   .hidden {
+      display: none;
+   }
+
+   #workerDetails {
+      width: 260px;
+      #workerDetailsInnerPane {
+         height: 610px;
+         text-align: center;
+         align: center;
+         #selectedPortrait {
+            width: 100%;
+            height: 128px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+         }
+         #selectedName {
+            position: relative;
+            top: -10px;
+            .controlFont;
+            font-size: 30px;
+            color: #bca058;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 240px;
+            overflow: hidden;
+         }
+         #selectedDescription {
+            position: relative;
+            top: -10px;
+            .controlFont;
+            font-size: 21px;
+            color: #cdc1a4;
+            margin-bottom: 20px;
+         }
+         button {
+            width: 200px;
+         }
+
+         #glass {
+            .controlFont;
+            position: relative;
+            top: -15px;
+            left: 5px;
+            width: 200px;
+            height: 246px;
+            background-image: url(/stonehearth/ui/game/character_sheets/citizen_character_sheet/images/glass.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+            font-size: 45px;
+            text-shadow: -4px -4px 0px #000, 0px -4px 0px #000, 4px -4px 0px #000, -4px 0px 0px #000, 4px 0px 0px #000, -4px 4px 0px #000, 0px 4px 0px #000, 4px 4px 0px #000;
+            text-align: center;
+            pointer-events: none;
+
+            #mind {
+               position: relative;
+               left: 8px;
+               top: 55px;
+               width: 100px;
+            }
+
+            #body {
+               position: relative;
+               left: 84px;
+               top: -8px;
+               width: 100px;
+            }
+
+            #spirit {
+               position: relative;
+               top: 0px;
+               left: 44px;
+               width: 100px;
+            }
+
+            .whiteBlackOutline {
+               .thickOutlined;
+               font-size: 21px;
+               color: #fff;
+            }
+			.toolbar {
+			   font-size: 21px;
+			}
+         }
+      }
+      h2 {
+         margin-left: 10px;
+      }
+      float: left;
+   }
+
+   .workersList {
+      width: 1000px;
+      display: inline-block;
+
+      h2 {
+         margin-left: 10px;
+      }
+
+      .workersListTableContainer {
+         height: 610px;
+         overflow-y: auto;
+      }
+   }
+
+   #tasksWorkersList {
+      .listTitle{
+         display: inline-block;
+         width: 110px;
+      }
+      #tasksTitleName {
+         width: 300px;
+      }
+      #listTitleCurrentActivity{
+         width: 220px;
+      }
+      #suspendButtons {
+         margin-left: 288px;
+         .suspendButton {
+            width: 104px;
+            font-size: 21px;
+         }
+      }
+   }
+
+   #groupsWorkersList {
+      .listTitle{
+         display: inline-block;
+         width: 350px;
+         text-align: center;
+      }
+      #groupsTitleName {
+         width: 210px;
+         text-align: left;
+      }
+   }
+
+   #tabs {
+      position: absolute;
+      bottom: -80px;
+	  font-size: 21px;
+   }
+
+   table {
+      width: 100%;
+
+      td:nth-child(6) {
+         white-space: nowrap;
+         width: 240px;
+         align: left;
+         text-align: left;
+      }
+      tr:nth-child(even) {
+         background: rgba(0,0,0,0.1);
+      }
+
+      td {
+         vertical-align: middle;
+         text-align: center;
+         padding-top: 4px;
+         padding-left: 10px;
+      }
+
+      td.red {
+         background: rgba(255,0.5,0,0.1);
+      }
+
+      td:nth-child(1) {
+         width: 265px;
+         text-align: left;
+         vertical-align: middle;
+
+         .controlFont;
+         font-size: 25px;
+
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         overflow: hidden;
+         .classIcon {
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+         }
+      }
+
+      tr {
+         .handCursor;
+         &:hover {
+            background-color: rgba(143, 120, 70, 0.3);
+         }
+      }
+
+      tr.selected {
+         background-color: rgba(143, 120, 70, 1.0);
+      }
+
+      .activity {
+         .nobr;
+         color: #93ef26;
+         display: inline-block;
+         font-size: 17px;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         padding-left: 5px;
+      }
+
+      .citizenName {
+         width: 265px;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         overflow: hidden;
+      }
+
+      .enrollmentStatus {
+         width: 110px;
+         .nobr;
+         display: inline-block;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         padding-left: 5px;
+      }
+   }
+}

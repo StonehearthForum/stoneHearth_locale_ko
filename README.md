@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+stoneHearth_locale_ko
+=======
+=======
 # startermod_locale (한글판)
 
 
@@ -61,3 +65,4 @@ json 파일의 콜론 ' : ' 오른쪽에 오는 문장만 변경하면 됩니다
 #6. 참조
 이 가이드는 네이버 스톤하스 포럼 카페에서 작성되었습니다.
 http://http://cafe.naver.com/stonehearth  
+>>>>>>> master

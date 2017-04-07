@@ -1,0 +1,120 @@
+#notificationPanel {
+   position: absolute;
+   top: 220px;
+   right: 598px;
+
+   .bulletinPanel {
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      vertical-align: top;
+
+      .bulletinNotification {
+
+         position: absolute;
+
+         #popup {
+            .handCursor;
+            .outlined;
+            font-family: @controlFontFamily;
+            width: 547px;
+            text-align: center;
+            border-width: 10px 10px 14px 10px;
+            border-image: url(images/alert_bg.png) 10 10 14 10 repeat;
+            background-color: #312f2f;
+            color: #b39b5b;
+            font-size: 24px;
+            padding: 30px 10px 10px 10px;  
+         }
+
+         #popup.info {
+            //border-image: url(images/info_bg.png) 10 10 14 10 repeat;
+            //background-color: #a4c8e4;
+            //color: #d8eeff;
+         }
+
+         #popup.alert {
+            color: #ffc000;
+         }
+
+         #icon {
+            position: absolute;
+            top: -12px;
+            left: 272px;
+            width: 45px;
+            height: 45px;
+         }
+
+         #icon.info {
+            background-image: url(images/info_icon.png);
+         }
+
+         #icon.alert {
+            background-image: url(images/alert_icon.png);
+         }
+
+         #icon.quest {
+            background-image: url(images/quest_icon.png);
+            color: #ffd041;      
+         }
+
+         #icon.level_up {
+            background-image: url(images/lvlup_icon.png);
+            color: #ffc000;
+         }
+      }
+
+      .alertNotification {
+
+         position: absolute;
+
+         #popup {
+            .handCursor;
+            .outlined;
+            font-family: @controlFontFamily;
+            width: 547px;
+            text-align: center;
+            border-width: 10px 10px 14px 10px;
+            border-image: url(images/alert_bg_red.png) 10 10 14 10 repeat;
+            background-color: #512a25;
+            color: #b39b5b;
+            font-size: 24px;
+            padding: 30px 10px 10px 10px;
+         }
+
+         #popup.alert {
+            color: #ffc000;
+         }
+
+         #icon {
+            position: absolute;
+            top: -25px;
+            left: 272px;
+            width: 45px;
+            height: 45px;
+         }
+
+         #icon.info {
+            background-image: url(images/info_icon.png);
+         }
+
+         #icon.alert {
+            background-image: url(images/alert_icon.png);
+         }
+
+         #icon.quest {
+            background-image: url(images/quest_icon.png);
+            color: #ffd041;      
+         }
+
+         #icon.level_up {
+            background-image: url(images/lvlup_icon.png);
+            color: #ffc000;
+         }
+      }
+
+   }
+
+   
+}
+

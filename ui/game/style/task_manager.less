@@ -1,0 +1,121 @@
+#taskManager {
+
+   .counter  {
+      background: #ccc;
+      float: left;
+      display: inline-block;
+      font-size: 13px;
+      border: 0px;
+      padding: 0px;
+      spacing: 0px;
+      height: 20px;
+   }
+
+   .unaccounted_time {
+      background: #999;
+   }
+
+   .network_recv {
+      background: #a86cca;
+   }
+
+   .network_send {
+      background: #dc70ce;
+   }
+
+   .lua {
+      background: #579cea;
+   }
+
+   .lua_gc {
+      background: #46e1f3;
+   }
+
+   .filter_cache_cb {
+      background: #ff7f00;
+   }
+
+   .update_sensors {
+      background: #C40233;
+   }
+
+   .collisions {
+      background: #fb9e24;
+   }
+
+   .native_tasks {
+      background: #fccbfd;
+   }
+
+   .jobkeeping {
+      background: #AA98A9;
+   }
+   
+   .lua_jobs {
+      background: #0000ff;
+   }
+
+   .bfs {
+      background: #ffef00;
+   }
+
+   .astar {
+      background: #808000;
+   }
+
+   .idle {
+      background: #50e94d;
+   }
+
+   #meter {
+      position: absolute;
+      bottom: 12px;
+      right: 175px;
+      height: 6px;
+      border: 3px solid #000;
+      background: #50e94d;
+      font-size: 6px;
+
+      .counter {
+         height: 6px;
+      }
+   }
+
+   #details {
+      .outlined;
+      position: absolute;
+      bottom: 44px;
+      right: 80px;
+      display: none;
+      font-size: 17px;
+      text-align: left;
+      border: 3px solid #000;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+
+      table {
+         width: 280px;
+         border-collapse:collapse;
+      }
+
+      .key {
+         border: 2px solid #000;
+      }
+
+      .time {
+         text-align: right;
+      }
+
+      tr:nth-child(odd) {
+         background: rgba(0,0,0,0.3);
+      }
+
+      td {
+         padding: 6px;
+      }
+   }
+}
+
+
+
