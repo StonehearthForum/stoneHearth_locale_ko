@@ -1,0 +1,221 @@
+#promotionTree {
+   margin: auto;
+   margin-top: 10px;
+   z-index: 100;
+
+   .window {
+      position: relative;
+      margin: auto;
+      width: 1800px;
+      height: 920px;
+	  
+	  .title {
+	     font-size: 30px;
+	  }
+   }
+ 
+   svg {
+      
+   }
+
+   #content {
+      position: absolute;
+      top: 70px;
+      left: 0px;
+      width: 1300px;
+      height: 640px;
+      overflow: auto;
+
+      .node {
+         .control;
+         background: red;
+         color: #fff;
+         background-image: url(images/jobButtonUnavailable.png);
+      }
+
+      image.unavailable {
+         opacity: 0.6;
+
+      }
+
+     .link {
+       fill: none;
+       stroke: #fff;
+       stroke-width: 4px;
+     }
+
+      body {
+         padding: 0px;
+         margin: 0px;
+      }
+
+      .cursor {
+         position: absolute;
+         background-image: url(images/jobButtonCursor.png);
+         width: 84px;
+         height: 82px;
+      }
+   }
+
+   #scroll {
+      .parchment;
+      position: absolute;
+      top: 74px;
+      right: 4px;
+      width: 460px;
+      height: 647px;
+      background: url(images/scroll.png);
+      display: none;
+
+      #inner {
+         padding: 14px;
+         padding-top: 40px;
+		 font-size: 21px;
+      }
+
+      #title {
+         font-family: @controlFontFamily;
+         text-align: center;
+         font-size: 41px;
+         padding-bottom: 10px;
+      }
+
+      #approveStamp {
+         .controlFont;
+         position: absolute;
+         bottom: 24px;
+         right: 24px;
+         width: 160px;
+         border: 5px solid rgba(0,0,0,0.4);
+         padding: 8px;
+         text-align: center;
+         font-size: 31px;
+         color: rgba(0,0,0,0.4);
+         text-shadow: none;
+      }
+
+      #approvedStamp {
+         .controlFont;
+         position: absolute;
+         bottom: 20px;
+         right: 20px;
+         width: 192px;
+         height: 54px;
+         text-align: center;
+         vertical-align: middle;
+         font-size: 33px;
+         color: #af9664;
+         text-shadow: none;
+         padding-top: 20px;
+         background: url(images/approved_stamp.png);
+         display: none;
+      }
+
+      #deniedStamp {
+         .controlFont;
+         position: absolute;
+         top: 300px;
+         left: 60px;
+         text-align: center;
+         vertical-align: middle;
+         font-size: 33px;
+         color: #c3b288;
+         padding: 30px;
+         width: 300px;
+         text-shadow: none;
+         background: url(images/approved_stamp.png);
+         background-size: cover;
+         opacity: 0.8;
+         -webkit-transform: rotate(-12deg);
+         display: none;
+      }
+
+      #approveStamper {
+         .button;
+         position: absolute;
+         bottom: 100px;
+         right: 20px;
+         width: 199px;
+         height: 193px;
+         background: url(images/approve_stamper.png);
+         display: none;
+         #approveStamperTopText{
+            .controlFont;
+            .outlinedThin(#80775d);
+            width: 199px;
+            position: absolute;
+            bottom: 28px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 21px;
+            color: #373328;
+         }
+         #approveStamperBottomText{
+            .controlFont;
+            .outlinedThin(#80775d);
+            width: 199px;
+            position: absolute;
+            bottom: 4px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 29px;
+            color: #373328;
+         }
+      }
+
+      #citizenName {
+         .nobr;
+         .scriptFont;
+         text-align: center;
+         margin-top: -30px;
+         margin-bottom: 0px;
+         overflow: hidden;
+      }
+
+   }
+
+   #info {
+      position: absolute;
+      top: 740px;
+      left: 12px;
+
+      h2 {
+         font-size: 30px;
+      }
+
+      .block {
+         display: inline-block;
+         vertical-align: top;
+         width: 370px;
+         height: 100px;
+         margin-right: 60px;
+      }
+
+      .requirementsUnmet {
+         color: #ff0000;
+      }
+
+      .requirementsMet {
+         color: #00ff00;
+      }
+   }
+
+   #promoteButton {
+      position: absolute;
+      right: 4px;
+      bottom: 4px;
+      width: 480px;
+      height: 130px;
+      font-size: 30px;
+      display: none;
+   }
+
+   #promoteButton.visible {
+      display: block;
+   }
+   
+   #promoteButton.hidden {
+      display: none;
+   }
+
+}

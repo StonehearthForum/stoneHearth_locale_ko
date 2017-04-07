@@ -1,0 +1,67 @@
+#stockpileWindow {
+   position: absolute;
+   left: 20px;
+   top: 200px;
+
+   .window {
+      min-width: 560px;
+      height: 523px;
+   }
+
+   .remainingSpaces {
+      color: #fedb17;
+      font-family: @controlFontFamily;
+      font-size: 27px;
+      display: inline-block;
+      width: 315px;
+      text-align: center;      
+   }
+
+   .ok {
+      margin-right: 10px;
+   }
+
+   .tabPage {
+      display: none;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 403px;
+      min-width: 560px;
+      margin-bottom: 2px;
+      max-width: 600px;
+   }
+   #taxonomyGrid2 {
+      display: none;
+   }
+
+   #taxonomyGrid {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      margin-left: -21px;
+      margin-right: -21px;
+
+      tr:nth-child(odd) {
+         background: rgba(0,0,0,0.2);
+      }
+
+      td:first-child {
+         padding-left: 20px;
+         text-align: left;
+         .nobr;
+      }
+
+      td.group {
+         width: auto;
+      }
+
+      tr {
+      }
+
+      td {
+         width: 54px;
+         height: 54px;
+         vertical-align: middle;
+      }
+
+   }
+}
