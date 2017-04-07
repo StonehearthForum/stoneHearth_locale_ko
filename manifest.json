@@ -1,22 +1,29 @@
 {
    "info" : {
       "name" : "stoneHearth_locale_ko", 
-      "version" : 150404
+      "version" : 170407
+
    },
    "default_locale": "ko",
+   
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
+   
    "overrides": {	  
 	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/BMJUA.ttf)",
    	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/BMJUA.woff)",
    	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/BMJUA.ttf)",
    	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/BMJUA.woff)",
-	  
+ 
 	  "stonehearth/ui/shell/title/title.html": "file(ui/shell/html/title.html)",
 	  "stonehearth/ui/shell/select_game_story/select_game_story.html": "file(ui/shell/html/select_game_story.html)",
+
 	  
+	  "stonehearth/ui/shell/title/title.html": "file(ui/shell/html/title.html)",	  
+	  "stonehearth/ui/shell/title/title.less": "file(ui/shell/style/title.js)",
 	  "stonehearth/ui/shell/title/title.less": "file(ui/shell/style/title.less)",
+
 	  "stonehearth/ui/shell/select_game_story/select_game_story.less": "file(ui/shell/style/select_game_story.less)",
 	  "stonehearth/ui/shell/select_settlement/select_settlement.less": "file(ui/shell/style/select_settlement.less)",
 	  "stonehearth/ui/shell/settings/settings.less": "file(ui/shell/style/settings.less)",
@@ -62,7 +69,7 @@
 	  "stonehearth/ui/game/town/town.less": "file(ui/game/style/town.less)",
 	  "stonehearth/ui/game/version/version.less": "file(ui/game/style/version.less)",
 	  "stonehearth/ui/game/unit_frame/unit_frame.less": "file(ui/game/style/unit_frame.less)",
-	  
+	
 	  "debugtools/locales/ko.json": "file(translations/debugtools/ko.json)",
       "stonehearth/locales/ko.json": "file(translations/stonehearth/ko.json)",
 	  "rayyas_children/locales/ko.json": "file(translations/rayyas_children/ko.json)"

@@ -25,9 +25,7 @@
    "debugtools_mixintos": {
       "interrupt_ai": {
          "interrupt_command": {
-
-            "display_name": "중단",
-
+            "display_name": "Interrupt",
             "description": "Send the ai back to stonehearth:top"
          }
       }
