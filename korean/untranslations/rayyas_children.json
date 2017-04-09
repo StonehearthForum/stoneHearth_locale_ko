@@ -1,9 +1,9 @@
 {
    "kingdom": {
-      "kingdom_name": "레야의 자손",
-      "quote": "명상, 명상, 약물 처방: 순서를 지키면 모두에게 건강을 가져다 줍니다.",
-      "long_description": "사막의 사람들은 생존하기 위해 일찌기 배웠고, 서로가 필요했고, 가능한 한 많은 사람들이 도달할 수 있어야 했습니다. 이제 이들은 전 세계에서 온 상품을 접할 수있는 곳을 찾고 있습니다.",
-      "post_selection_description": ", 매력적이고 간교한 상인들이지요."
+      "kingdom_name": "Rayya's Children",
+      "quote": "Meditation, mediation, medication: Order in self brings order to others brings health to all.",
+      "long_description": "The people of the desert learned early that to survive, they needed each other, and preferably as many others as they could reach. Now, visitors find them generous hosts with access to goods from all over the world.",
+      "post_selection_description": ", a society of charming, wily traders."
    },
    "jobs": {
       "potter": {
@@ -14,7 +14,7 @@
             "mason_clay_chisel_recipe": {
                "description": "Required to promote a hearthling into a Mason",
                "recipe_name": "Mason's Clay Chisel",
-               "flavor": ""
+               "flavor": "\"A tool used to make big rocks into smaller, prettier, more functional rocks.\" "
             },
             "trading_post_monument_recipe": {
                "recipe_name": "Trading Goods Monument",
@@ -67,7 +67,7 @@
    },
    "data": {
       "rayyas_children_population": {
-         "display_name": "레야의 자손"
+         "display_name": "Rayya's Children"
       },
       "gm": {
          "campaigns": {
